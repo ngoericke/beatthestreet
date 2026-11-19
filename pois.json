@@ -2,7 +2,7 @@
   "categories": {
     "parkplatz": { "label": "Parkplätze", "color": "#1f6feb", "icon": "🅿️" },
     "waschanlage": { "label": "Bus-Wash", "color": "#f9a825", "icon": "icons/Bus.png" },
-    "wasser": { "label": "Wasser", "color": "#e8890c", "icon": "🚰" }
+    "wasser": { "label": "Wasser", "color": "#429CC7", "icon": "🚰" }
   },
   "pois": [
     { "name": "Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" },
