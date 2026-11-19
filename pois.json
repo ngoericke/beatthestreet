@@ -1,7 +1,7 @@
 {
   "categories": {
     "parkplatz": { "label": "Parkplätze", "color": "#1f6feb", "icon": "🅿️" },
-    "waschanlage": { "label": "Bus-Wash", "color": "#0f9d8a", "icon": "🚌" },
+    "waschanlage": { "label": "Bus-Wash", "color": "#f9a825", "icon": "🚌" },
     "wasser": { "label": "Wasser", "color": "#e8890c", "icon": "🚰" }
   },
   "pois": [
