@@ -1,6 +1,6 @@
 {
-  "name": "Betriebskarte",
-  "short_name": "Betriebskarte",
+  "name": "Beat the Street",
+  "short_name": "Beat the Street",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
