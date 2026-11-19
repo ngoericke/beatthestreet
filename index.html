@@ -114,7 +114,7 @@ async function initMap() {
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
 
   map = new Map(document.getElementById("map"), {
-    center: START, zoom: START_ZOOM,
+    center: START, zoom: START_ZOOM, mapTypeId: "hybrid",
     mapId: "DEMO_MAP_ID",          // für eigene Kartenstile: eigene Map ID eintragen
     disableDefaultUI: true,
     zoomControl: false,
