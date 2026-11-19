@@ -1,8 +1,8 @@
 {
   "categories": {
-    "parkplatz": { "label": "Parkplätze", "color": "#1f6feb" },
-    "waschanlage": { "label": "Bus-Waschanlage", "color": "#0f9d8a" },
-    "wasser": { "label": "Wasseranschlüsse", "color": "#e8890c" }
+    "parkplatz": { "label": "Parkplätze", "color": "#1f6feb", "icon": "🅿️" },
+    "waschanlage": { "label": "Bus-Wash", "color": "#0f9d8a", "icon": "🚌" },
+    "wasser": { "label": "Wasser", "color": "#e8890c", "icon": "🚰" }
   },
   "pois": [
     { "name": "Betriebshof Nord", "category": "parkplatz", "lat": 52.5069, "lng": 9.4631, "note": "Stellplätze für 12 Busse" },
