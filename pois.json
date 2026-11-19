@@ -1,0 +1,12 @@
+{
+  "categories": {
+    "parkplatz": { "label": "Parkplätze", "color": "#1f6feb" },
+    "waschanlage": { "label": "Bus-Waschanlage", "color": "#0f9d8a" },
+    "wasser": { "label": "Wasseranschlüsse", "color": "#e8890c" }
+  },
+  "pois": [
+    { "name": "Betriebshof Nord", "category": "parkplatz", "lat": 52.5069, "lng": 9.4631, "note": "Stellplätze für 12 Busse" },
+    { "name": "Waschanlage Hauptwerkstatt", "category": "waschanlage", "lat": 52.5042, "lng": 9.4705, "note": "Einfahrt von der Südseite, max. Höhe 3,9 m" },
+    { "name": "Wasseranschluss Busbahnhof", "category": "wasser", "lat": 52.5031, "lng": 9.4598, "note": "Standrohr neben Haltestelle 3" }
+  ]
+}
