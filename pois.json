@@ -5,8 +5,8 @@
     "wasser": { "label": "Wasser", "color": "#e8890c", "icon": "🚰" }
   },
   "pois": [
-    { "name": "Betriebshof Nord", "category": "parkplatz", "lat": 52.5069, "lng": 9.4631, "note": "Stellplätze für 12 Busse" },
-    { "name": "Waschanlage Hauptwerkstatt", "category": "waschanlage", "lat": 52.5042, "lng": 9.4705, "note": "Einfahrt von der Südseite, max. Höhe 3,9 m" },
-    { "name": "Wasseranschluss Busbahnhof", "category": "wasser", "lat": 52.5031, "lng": 9.4598, "note": "Standrohr neben Haltestelle 3" }
+    { "name": "Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" },
+    { "name": "Waschcenter Lauenau", "category": "waschanlage", "lat": 52.27608, "lng": 9.35294, "note": "" },
+    { "name": "A1 - FR Wien", "category": "wasser", "lat": 48.13928, "lng": 14.57932, "note": "" }
   ]
 }
