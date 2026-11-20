@@ -39,7 +39,7 @@
   .chip i { width: 20px; height: 20px; display: grid; place-items: center; font-style: normal; font-size: 17px; line-height: 1; }
   .chip i img { width: 18px; height: 18px; }
   .chip[aria-pressed="false"] i { opacity: .55; }
-  .chip[aria-pressed="true"] { background: var(--c); }
+  .chip[aria-pressed="true"] { background: var(--c); color: var(--t, #fff); }
   .chip:focus-visible, .fab:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
 
   .fab {
@@ -191,6 +191,7 @@ async function initMap() {
     const b = document.createElement("button");
     b.className = "chip";
     b.style.setProperty("--c", cat.color);
+    b.style.setProperty("--t", cat.textColor || "#fff");
     b.setAttribute("aria-pressed", "true");
     const ic = document.createElement("i");
 if (/\.(svg|png)$/i.test(cat.icon || "")) {
