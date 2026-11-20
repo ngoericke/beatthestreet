@@ -1,31 +1,9 @@
 [
-    { "name": "A - Salzburg - Reisemobilstellplatz", "category": "parkplatz", "lat": 47.83584, "lng": 13.0601, "note": "Carl-Zuckmayer-Straße 26, 5020 Salzburg 
-www.reisemobilstellplatz-salzburg.at
-+43 676 9114244" },
-    { "name": "A - Wien - Camping Neue Donau", "category": "parkplatz", "lat": 48.20843, "lng": 16.44704, "note": "Am Kaisermühlendamm 123, 1220 Wien
-micampa.com
-+43 1 2024010" },
-    { "name": "A - Wien - Camping West", "category": "parkplatz", "lat": 48.21406, "lng": 16.25045, "note": "Hüttelbergstraße 80, 1140 Wien
-micampa.com
-+43 1 9142314" },
-    { "name": "A - Wien - EvoBus Austria GmbH", "category": "parkplatz", "lat": 48.07576, "lng": 16.32326, "note": "IZ NÖ-Süd Straße 4 Objekt 18, 2351 Wiener Neudorf
-legal-at.buses.daimlertruck.com
-+43 57 70100" },
-    { "name": "A - Wien - Marx-Halle", "category": "parkplatz", "lat": 48.18622, "lng": 16.40541, "note": "Parkplatz buchen über:
-Katharina Strnad
-Eventlocation Management
-+43 1 888 55 25 15
-+ 43 664 881 758 76 (mobil)
-ks@hey-u.com
-www.marxhalle.at
-
-HEY Communications & Production GmbH
-Karl-Farkas-Gasse 22 / 5.OG
-A - 1030 Wien
-
-Parken m. Strom = 70,- EUR/Day
-
-Gate-Code: 0704" },
+    { "name": "A - Salzburg - Reisemobilstellplatz", "category": "parkplatz", "lat": 47.83584, "lng": 13.0601, "note": "Carl-Zuckmayer-Straße 26, 5020 Salzburg www.reisemobilstellplatz-salzburg.at +43 676 9114244" },
+    { "name": "A - Wien - Camping Neue Donau", "category": "parkplatz", "lat": 48.20843, "lng": 16.44704, "note": "Am Kaisermühlendamm 123, 1220 Wien micampa.com +43 1 2024010" },
+    { "name": "A - Wien - Camping West", "category": "parkplatz", "lat": 48.21406, "lng": 16.25045, "note": "Hüttelbergstraße 80, 1140 Wien micampa.com +43 1 9142314" },
+    { "name": "A - Wien - EvoBus Austria GmbH", "category": "parkplatz", "lat": 48.07576, "lng": 16.32326, "note": "IZ NÖ-Süd Straße 4 Objekt 18, 2351 Wiener Neudorf legal-at.buses.daimlertruck.com +43 57 70100" },
+    { "name": "A - Wien - Marx-Halle", "category": "parkplatz", "lat": 48.18622, "lng": 16.40541, "note": "Parkplatz buchen über: Katharina Strnad Eventlocation Management +43 1 888 55 25 15 +43 664 881 758 76 (mobil) ks@hey-u.com www.marxhalle.at HEY Communications & Production GmbH Karl-Farkas-Gasse 22 / 5.OG A - 1030 Wien Parken m. Strom = 70,- EUR/Day Gate-Code: 0704" },
     { "name": "A - Wien - Parkplatz ÖBB", "category": "parkplatz", "lat": 48.19284, "lng": 16.31958, "note": "Felberstraße 25, 1150 Wien" },
     { "name": "Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" }
 
