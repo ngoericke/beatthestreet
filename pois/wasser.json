@@ -8,6 +8,8 @@
     { "name": "D - A4 - FR Köln", "category": "wasser", "lat": 50.8167, "lng": 6.21507, "note": "" },
     { "name": "D - A5 - Autohof Herbholzheim", "category": "wasser", "lat": 48.22721, "lng": 7.75437, "note": "" },
     { "name": "D - A7 - FR Süd - Shell Raststätte", "category": "wasser", "lat": 53.11133, "lng": 9.98312, "note": "" },
-    { "name": "D - A8 - FR Stuttgart", "category": "wasser", "lat": 48.41325, "lng": 10.42885, "note": "" }
+    { "name": "D - A8 - FR Stuttgart", "category": "wasser", "lat": 48.41325, "lng": 10.42885, "note": "" },
+    { "name": "ES - A2 - FR Madrid", "category": "wasser", "lat": 41.31261, "lng": -2.00155, "note": "" },
+    { "name": "ES - AP7 - FR Barcelona", "category": "wasser", "lat": 42.1739, "lng": 2.92999, "note": "" }
 
   ]
