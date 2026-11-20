@@ -6,30 +6,5 @@
     "strom 32er": { "label": "Strom 32er", "color": "#C43535", "icon": "icons/32er.png", "file": "pois/strom32er.json" },
     "strom 16er": { "label": "Strom 16er", "color": "#1D73D1", "icon": "icons/16er.png", "file": "pois/strom16er.json" }
   },
-  "pois": [
-    { "name": "Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" },
-    { "name": "A - Wulkprodersdorf A3", "category": "waschanlage", "lat": 47.80624, "lng": 16.49969, "note": "Industriegelände 2, 7041 Wulkaprodersdorf FR Ungarn" },
-    { "name": "B - Antwerpen - WashVille", "category": "waschanlage", "lat": 51.26768, "lng": 4.37502, "note": "Zomerweg 30 B, 2030 Antwerpen" },
-    { "name": "B - Antwerpen - WashVille Truckwash 1", "category": "waschanlage", "lat": 51.27238, "lng": 4.36923, "note": "Zomerweg 30 B, 2030 Antwerpen" },
-    { "name": "B - Brüssel - Truck Wash", "category": "waschanlage", "lat": 50.90779, "lng": 4.46281, "note": "Vliegveld 708, 1931 Steenokkerzeel" },
-    { "name": "B - Brüssel - Cargovil Truck Wash", "category": "waschanlage", "lat": 50.9492, "lng": 4.42636, "note": "Erasmuslaan 15/B, 1804 Zemst" },
-    { "name": "B - Charleroi - Imperial Wash", "category": "waschanlage", "lat": 50.47367, "lng": 4.44745, "note": "Av. des Etats-Unis 90, 6041 Charleroi" },
-    { "name": "CH - Härkingen - Truck Center Mittelland AG", "category": "waschanlage", "lat": 47.31501, "lng": 7.81333, "note": "Pfannenstiel 2, 4624 Härkingen" },
-    { "name": "CH - Herzogenbuchsee - Truck Wash", "category": "waschanlage", "lat": 47.19428, "lng": 7.69802, "note": "Biblis 7, 3360 Herzogenbuchsee" },
-    { "name": "CH - Oberbuchsiten - Truck Wash", "category": "waschanlage", "lat": 47.30828, "lng": 7.77786, "note": "Industriestrasse 620, 4625 Oberbuchsiten" },
-    { "name": "CH - Ohringen - Truck Wash", "category": "waschanlage", "lat": 47.52647, "lng": 8.70682, "note": "Wülflingerstrasse 4, 8472 Seuzach" },
-    { "name": "CH - Sursee - Truck Wash", "category": "waschanlage", "lat": 47.17541, "lng": 8.1031, "note": "Obstfeldstrasse 7, 6210 Sursee" },
-    { "name": "CH - Winterthur - EVO-Bus", "category": "waschanlage", "lat": 47.50566, "lng": 8.67928, "note": "" },
-    { "name": "CH - Worb (Bern)", "category": "waschanlage", "lat": 46.93271, "lng": 7.55877, "note": "Sonnenbodenstrasse 7, 3076 Worb" },
-    { "name": "CH - Zürich VBZ", "category": "waschanlage", "lat": 47.41495, "lng": 8.55675, "note": "" },
-    { "name": "CZ - Prag Outside - 24/7 TRUCK WASH EW Eurowag Modletice", "category": "waschanlage", "lat": 49.97209, "lng": 14.61183, "note": "Modletice 195, 251 01 Modletice" },
-    { "name": "D - A1 Sittensen - Euro Truck Wash", "category": "waschanlage", "lat": 53.29391, "lng": 9.5054, "note": "Hansestraße 10, 27419 Sittensen" },
-    { "name": "D - Freiburg - Lkw-Waschanlage", "category": "waschanlage", "lat": 48.01882, "lng": 7.84299, "note": "Engesserstraße 13, 79108 Freiburg im Breisgau-Nord" },
-    { "name": "D - Lauenau Waschcenter", "category": "waschanlage", "lat": 52.27608, "lng": 9.35294, "note": "" },
-    { "name": "A1 - FR Wien", "category": "wasser", "lat": 48.13928, "lng": 14.57932, "note": "" },
-    { "name": "Nottingham Stadion 32er", "category": "strom 32er", "lat": 52.93962, "lng": -1.13113, "note": "" },
-    { "name": "Campingplatz Mailand", "category": "strom 32er", "lat": 45.473, "lng": 9.08527, "note": "" },
-    { "name": "Reisemobilstellplatz Salzburg", "category": "strom 16er", "lat": 47.83614, "lng": 13.05997, "note": "" }
-
-  ]
+  "pois": []
 }
