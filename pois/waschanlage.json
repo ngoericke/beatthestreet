@@ -16,6 +16,7 @@
     { "name": "CZ - Prag Outside - 24/7 TRUCK WASH EW Eurowag Modletice", "category": "waschanlage", "lat": 49.97209, "lng": 14.61183, "note": "Modletice 195, 251 01 Modletice" },
     { "name": "D - A1 Sittensen - Euro Truck Wash", "category": "waschanlage", "lat": 53.29391, "lng": 9.5054, "note": "Hansestraße 10, 27419 Sittensen" },
     { "name": "D - Freiburg - Lkw-Waschanlage", "category": "waschanlage", "lat": 48.01882, "lng": 7.84299, "note": "Engesserstraße 13, 79108 Freiburg im Breisgau-Nord" },
+    { "name": "F - Rungis", "category": "waschanlage", "lat": 48.752269843861576,  "lng": 2.360636169439818, "note": "Sogaris, Pl. de la Logistique, 94150 Rungis" },
     { "name": "D - Lauenau Waschcenter", "category": "waschanlage", "lat": 52.27608, "lng": 9.35294, "note": "" }
  
   ]
