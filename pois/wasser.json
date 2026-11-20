@@ -10,6 +10,31 @@
     { "name": "D - A7 - FR Süd - Shell Raststätte", "category": "wasser", "lat": 53.11133, "lng": 9.98312, "note": "" },
     { "name": "D - A8 - FR Stuttgart", "category": "wasser", "lat": 48.41325, "lng": 10.42885, "note": "" },
     { "name": "ES - A2 - FR Madrid", "category": "wasser", "lat": 41.31261, "lng": -2.00155, "note": "" },
-    { "name": "ES - AP7 - FR Barcelona", "category": "wasser", "lat": 42.1739, "lng": 2.92999, "note": "" }
-
+    { "name": "ES - AP7 - FR Barcelona", "category": "wasser", "lat": 42.1739, "lng": 2.92999, "note": "" },
+    { "name": "F - A10 - FR Nord Paris", "category": "wasser", "lat": 48.27012, "lng": 1.8555, "note": "" },
+    { "name": "F - A11 - FR Süd", "category": "wasser", "lat": 47.80759, "lng": -0.1672, "note": "" },
+    { "name": "F - Paris - Travis Secured Truck Parking", "category": "wasser", "lat": 48.8275, "lng": 2.39372, "note": "" },
+    { "name": "GR - Iasmos - BP Autohof", "category": "wasser", "lat": 41.12026, "lng": 25.18249, "note": "" },
+    { "name": "IRL - Dublin - Topaz", "category": "wasser", "lat": 53.35471, "lng": -6.21248, "note": "" },
+    { "name": "IRL - Preston Hill - Circle K", "category": "wasser", "lat": 53.63754, "lng": -6.25771, "note": "" },
+    { "name": "NL - A2 - AMS->Utrecht", "category": "wasser", "lat": 52.14378, "lng": 5.00061, "note": "" },
+    { "name": "NL - A16 - FR Antwerpen", "category": "wasser", "lat": 51.83692, "lng": 4.61574, "note": "" },
+    { "name": "NL - Amsterdam - Nähe Arena", "category": "wasser", "lat": 52.30272, "lng": 4.9475, "note": "Shell-Tankstelle" },
+    { "name": "PL - A2 - FR Warschau", "category": "wasser", "lat": 52.02634, "lng": 20.00357, "note": "" },
+    { "name": "S - E4 - Rasthof Vättersmalen", "category": "wasser", "lat": 57.92442, "lng": 14.31967, "note": "" },
+    { "name": "S - E6 - FR Süd - Shell Raststätte", "category": "wasser", "lat": 57.55526, "lng": 12.05151, "note": "" },
+    { "name": "UK - London - Zeppelin Nightliner", "category": "wasser", "lat": 51.59163, "lng": -0.04238, "note": "" },
+    { "name": "UK - A1(M) - Exelby Coneygarth", "category": "wasser", "lat": 54.31202, "lng": -1.56904, "note": "" },
+    { "name": "UK - London - Novotel Parking", "category": "wasser", "lat": 51.49217, "lng": -0.22008, "note": "neben dem Hotel-Eingang auf Parkebene" },
+    { "name": "UK - M1 - FR Nord - BP Toddington", "category": "wasser", "lat": 51.94781, "lng": -0.50481, "note": "" },
+    { "name": "UK - M5 - FR Nord - BP Frankley", "category": "wasser", "lat": 52.42987, "lng": -2.01891, "note": "" },
+    { "name": "UK - M6 - Exelby Services - Golden Fleece", "category": "wasser", "lat": 54.85734, "lng": -2.87557, "note": "" },
+    { "name": "UK - M6 - FR Nord - BP Knutsford", "category": "wasser", "lat": 53.30151, "lng": -2.40274, "note": "" },
+    { "name": "UK - M6 - FR Nord - Shell Carlisle", "category": "wasser", "lat": 54.95093, "lng": -2.97969, "note": "" },
+    { "name": "UK - M6 - FR Süd - BP Sandbach", "category": "wasser", "lat": 53.13854, "lng": -2.33561, "note": "" },
+    { "name": "UK - M6 - Lymm Services", "category": "wasser", "lat": 53.35826, "lng": -2.50277, "note": "" },
+    { "name": "UK - M40 - FR Nord - Warwick Services", "category": "wasser", "lat": 52.21744, "lng": -1.50601, "note": "" },
+    { "name": "UK - Manchester - Hadfields", "category": "wasser", "lat": 53.49527, "lng": -2.20895, "note": "" },
+    { "name": "UK - NorthWales - FR Ost", "category": "wasser", "lat": 53.2698, "lng": -3.51876, "note": "" }
+    
   ]
