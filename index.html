@@ -126,12 +126,23 @@ async function initMap() {
   infoWindow = new InfoWindow();
 
   try {
-    const res = await fetch("pois.json", { cache: "no-cache" });
-    data = await res.json();
-  } catch (e) {
-    showError("Die Datei <code>pois.json</code> konnte nicht geladen werden.");
-    return;
-  }
+  const res = await fetch("pois.json", { cache: "no-cache" });
+  data = await res.json();
+  data.pois = data.pois || [];
+  await Promise.all(Object.entries(data.categories).map(async ([key, cat]) => {
+    if (!cat.file) return;
+    try {
+      const r = await fetch(cat.file, { cache: "no-cache" });
+      const list = await r.json();
+      list.forEach(p => data.pois.push({ ...p, category: key }));
+    } catch (e) {
+      console.error("Datei fehlt oder ist ungültig:", cat.file);
+    }
+  }));
+} catch (e) {
+  showError("Die Datei <code>pois.json</code> konnte nicht geladen werden.");
+  return;
+}
 
   // Filter-Chips
   const bar = document.getElementById("filters");
