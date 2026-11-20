@@ -1,5 +1,6 @@
 {
   "categories": {
+    "venues": { "label": "Venues", "color": "F77B0F", "icon": "🎪", "file": "pois/venues.json" },
     "parkplatz": { "label": "Parkplätze", "color": "#1f6feb", "icon": "🅿️", "file": "pois/parkplatz.json" },
     "waschanlage": { "label": "Bus-Wash", "color": "#f9a825", "icon": "icons/Bus.png", "file": "pois/waschanlage.json" },
     "wasser": { "label": "Wasser", "color": "#429CC7", "icon": "🚰","file": "pois/wasser.json" },
