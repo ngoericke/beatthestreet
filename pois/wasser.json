@@ -1,3 +1,13 @@
 [
-    { "name": "A1 - FR Wien", "category": "wasser", "lat": 48.13928, "lng": 14.57932, "note": "" }
+    { "name": "A - A1 - FR Wien", "category": "wasser", "lat": 48.13928, "lng": 14.57932, "note": "" },
+    { "name": "A - A2 - FR Wien", "category": "wasser", "lat": 47.10502, "lng": 47.10502, "note": "" },
+    { "name": "D - A1 - Autohof Sittensen", "category": "wasser", "lat": 53.29333, "lng": 9.5047, "note": "" },
+    { "name": "D - A1 - FR Nord - Shell Raststätte", "category": "wasser", "lat": 54.06797, "lng": 10.7563, "note": "" },
+    { "name": "D - A2 - FR West - Aral Rhynern Nord", "category": "wasser", "lat": 51.63259, "lng": 7.87649, "note": "" },
+    { "name": "D - A3 - FR Köln - Bad Camberg Ost", "category": "wasser", "lat": 50.30029, "lng": 8.23653, "note": "" },
+    { "name": "D - A4 - FR Köln", "category": "wasser", "lat": 50.8167, "lng": 6.21507, "note": "" },
+    { "name": "D - A5 - Autohof Herbholzheim", "category": "wasser", "lat": 48.22721, "lng": 7.75437, "note": "" },
+    { "name": "D - A7 - FR Süd - Shell Raststätte", "category": "wasser", "lat": 53.11133, "lng": 9.98312, "note": "" },
+    { "name": "D - A8 - FR Stuttgart", "category": "wasser", "lat": 48.41325, "lng": 10.42885, "note": "" }
+
   ]
