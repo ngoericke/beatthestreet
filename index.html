@@ -133,7 +133,7 @@ function showError(html) {
 
 let map, infoWindow, data, markers = [], active = new Set(), watchId = null, meMarker = null;
 function linkify(el, text) {
-  const re = /([\w.+-]+@[\w-]+(?:\.[\w-]+)+)|((?:https?:\/\/|www\.)[^\s<]+|[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|at|de|ch|eu|org|net|info|it|hu|cz|sk|si|hr)\b(?:\/[^\s<]*)?)/gi;
+  const re = /([\w.+-]+@[\w-]+(?:\.[\w-]+)+)|((?:https?:\/\/|www\.)[^\s<]+|[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|at|de|ch|eu|org|net|info|it|hu|cz|sk|si|hr)\b(?:\/[^\s<]*)?)|((?:\+|0)\d[\d\s\/().-]{6,}\d)/gi;
   let last = 0, m;
   while ((m = re.exec(text))) {
     let hit = m[0];
@@ -144,7 +144,7 @@ function linkify(el, text) {
     a.textContent = hit;
     a.target = "_blank";
     a.rel = "noopener";
-    a.href = m[1] ? "mailto:" + hit : (/^https?:\/\//i.test(hit) ? hit : "https://" + hit);
+    a.href = m[1] ? "mailto:" + hit : m[3] ? "tel:" + hit.replace(/[^\d+]/g, "") : (/^https?:\/\//i.test(hit) ? hit : "https://" + hit);
     el.append(a);
     last = m.index + hit.length;
     re.lastIndex = last;
