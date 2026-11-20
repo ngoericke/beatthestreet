@@ -2,7 +2,7 @@
   "categories": {
     "venues": { "label": "Venues", "color": "#F77B0F", "icon": "🎪", "file": "pois/venues.json" },
     "parkplatz": { "label": "Parkplätze", "color": "#1f6feb", "icon": "🅿️", "file": "pois/parkplatz.json" },
-    "waschanlage": { "label": "Bus-Wash", "color": "##E4F70F", "icon": "icons/Bus.png", "file": "pois/waschanlage.json" },
+    "waschanlage": { "label": "Bus-Wash", "color": "#E4F70F", "icon": "icons/Bus.png", "file": "pois/waschanlage.json" },
     "wasser": { "label": "Wasser", "color": "#429CC7", "icon": "🚰","file": "pois/wasser.json" },
     "strom 32er": { "label": "Strom 32er", "color": "#C43535", "icon": "icons/32er.png", "file": "pois/strom32er.json" },
     "strom 16er": { "label": "Strom 16er", "color": "#1D73D1", "icon": "icons/16er.png", "file": "pois/strom16er.json" }
