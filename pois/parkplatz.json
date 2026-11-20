@@ -1,5 +1,5 @@
 [
-    { "name": "A - Salzburg - Reisemobilstellplatz", "category": "parkplatz", "lat": 47.83584, "lng": 13.0601, "note": "Carl-Zuckmayer-Straße 26, 5020 Salzburg www.reisemobilstellplatz-salzburg.at +43 676 9114244" },
+    { "name": "A - Salzburg - Reisemobilstellplatz", "category": "parkplatz", "lat": 47.83584, "lng": 13.0601, "note": "Carl-Zuckmayer-Straße 26, 5020 Salzburg<br> www.reisemobilstellplatz-salzburg.at +43 676 9114244" },
     { "name": "A - Wien - Camping Neue Donau", "category": "parkplatz", "lat": 48.20843, "lng": 16.44704, "note": "Am Kaisermühlendamm 123, 1220 Wien micampa.com +43 1 2024010" },
     { "name": "A - Wien - Camping West", "category": "parkplatz", "lat": 48.21406, "lng": 16.25045, "note": "Hüttelbergstraße 80, 1140 Wien micampa.com +43 1 9142314" },
     { "name": "A - Wien - EvoBus Austria GmbH", "category": "parkplatz", "lat": 48.07576, "lng": 16.32326, "note": "IZ NÖ-Süd Straße 4 Objekt 18, 2351 Wiener Neudorf legal-at.buses.daimlertruck.com +43 57 70100" },
