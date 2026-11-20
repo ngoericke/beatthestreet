@@ -27,7 +27,7 @@
     { "name": "D - Lauenau Waschcenter", "category": "waschanlage", "lat": 52.27608, "lng": 9.35294, "note": "" },
     { "name": "A1 - FR Wien", "category": "wasser", "lat": 48.13928, "lng": 14.57932, "note": "" },
     { "name": "Nottingham Stadion 32er", "category": "strom 32er", "lat": 52.93962, "lng": -1.13113, "note": "" },
-    { "name": "Campingplatz Mailand", "category": "strom 32", "lat": 45.473, "lng": 9.08527, "note": "" }
+    { "name": "Campingplatz Mailand", "category": "strom 32er", "lat": 45.473, "lng": 9.08527, "note": "" }
 
   ]
 }
