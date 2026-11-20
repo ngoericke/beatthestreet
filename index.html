@@ -65,10 +65,15 @@
   }
   .msg.show { display: grid; }
   .msg code { background: #24323f; padding: 2px 6px; border-radius: 4px; }
+#splash { position: fixed; inset: 0; z-index: 9; background: #000; display: grid; place-items: center; align-content: center; gap: 28px; transition: opacity .4s; }
+#splash.hide { opacity: 0; pointer-events: none; }
+#splash img { width: min(80vw, 360px); height: auto; }
+.sp-line { width: 120px; height: 6px; border-radius: 3px; background: repeating-linear-gradient(90deg, #f0922b 0 24px, transparent 24px 40px); background-size: 40px 6px; animation: sp-move .8s linear infinite; }
+@keyframes sp-move { to { background-position: 40px 0; } }
 </style>
 </head>
 <body>
-
+<div id="splash"><img src="icons/icon-512.png" alt="Beat the Street"><div class="sp-line"></div></div>
 <div id="map"></div>
 <div class="bar" id="filters" role="group" aria-label="Kategorien"></div>
 
@@ -90,7 +95,17 @@ const START_ZOOM = 20;
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js").catch(() => {});
 }
-
+const splashStart = Date.now();
+function hideSplash() {
+  const s = document.getElementById("splash");
+  if (!s) return;
+  setTimeout(() => {
+    s.classList.add("hide");
+    setTimeout(() => s.remove(), 500);
+  }, Math.max(0, 900 - (Date.now() - splashStart)));
+}
+setTimeout(hideSplash, 10000);
+  
 function showError(html) {
   document.getElementById("errorText").innerHTML = html;
   document.getElementById("error").classList.add("show");
@@ -204,6 +219,7 @@ const el = new AdvancedMarkerElement({ map, position: { lat: p.lat, lng: p.lng }
   if (markers.length > 1) map.fitBounds(bounds, { top: 90, right: 40, bottom: 40, left: 40 });
 
   document.getElementById("locate").onclick = toggleLocation;
+  google.maps.event.addListenerOnce(map, "idle", hideSplash);
 }
 window.initMap = initMap;
 
