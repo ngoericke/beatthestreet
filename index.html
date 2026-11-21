@@ -84,6 +84,10 @@
 .info .dots { display: flex; justify-content: center; gap: 5px; margin: -2px 0 6px; }
 .info .dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
 .info .dots i.on { background: #14202b; }
+#lightbox { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.94); display: flex; align-items: center; justify-content: center; }
+#lightbox[hidden] { display: none; }
+#lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
+#lightbox .lb-x { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 14px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: rgba(255,255,255,.18); color: #fff; font-size: 32px; line-height: 1; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -97,6 +101,7 @@
   </svg>
 </button>
 
+<div id="lightbox" hidden><button class="lb-x" aria-label="Foto schließen">×</button><img id="lbImg" alt=""></div>  
 <div class="msg" id="error"><div id="errorText"></div></div>
 
 <script>
@@ -158,6 +163,18 @@ function linkify(el, text) {
   }
   el.append(text.slice(last));
 }
+function openLightbox(src) {
+  document.getElementById("lbImg").src = src;
+  document.getElementById("lightbox").hidden = false;
+}
+function closeLightbox() {
+  document.getElementById("lightbox").hidden = true;
+  document.getElementById("lbImg").removeAttribute("src");
+}
+document.getElementById("lightbox").addEventListener("click", e => {
+  if (e.target.id !== "lbImg") closeLightbox();
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbox(); });  
 async function initMap() {
   const { Map, InfoWindow } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
