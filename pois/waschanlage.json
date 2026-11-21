@@ -89,7 +89,7 @@
     { "name": "F - Grans - QRO Lavage Grans 13", "category": "waschanlage", "lat": 43.60992,  "lng": 5.00646, "note": "76 rue ellen Macarthur, 13450 Grans\nwww.qro-lavage.fr" },
     { "name": "F - Lille - Lavatrans", "category": "waschanlage", "lat": 50.58605,  "lng": 3.13985, "note": "178 Rue des Sureaux, 59262 Sainghin-en-Mélantois\nlavatrans.com" },
     { "name": "F - Limoges", "category": "waschanlage", "lat": 45.89011,  "lng": 1.28917, "note": "6 Rue Jacques Goddet, 87280 Limoges\nlavatrans.com\n+33 5 55 35 41 80" },
-    { "name": "F - Lyon - QRO Lavage 38", "category": "waschanlage", "lat": 45.66063,  "lng": 45.66063, "note": "123 Rue Santoyon, 38070 Saint-Quentin-Fallavier\nwww.qro-lavage.fr\n+33 4 74 94 20 76" },
+    { "name": "F - Lyon - QRO Lavage 38", "category": "waschanlage", "lat": 45.66063,  "lng": 5.10588, "note": "123 Rue Santoyon, 38070 Saint-Quentin-Fallavier\nwww.qro-lavage.fr\n+33 4 74 94 20 76" },
     { "name": "F - Lyon", "category": "waschanlage", "lat": 45.83748,  "lng": 5.27528, "note": "30 allée des lièvres, 01150 Saint-Vulbas\nwww.s-netlavagepoidslourds.com\n+33 4 72 93 94 89" },
     { "name": "F - Narbonne - QRO Lavage 11", "category": "waschanlage", "lat": 43.16154,  "lng": 2.9886, "note": "Zone Industrielle, Av. de Croix S, 11100 Narbonne\nqro-lavage.fr" },
     { "name": "F - Nizza - Truck Wash", "category": "waschanlage", "lat": 43.66738,  "lng": 7.20354, "note": "11 Bd Georges Pompidou, 06200 Nice" },
@@ -99,6 +99,8 @@
     { "name": "F - Plan d'Orgon - QRO Lavage 13", "category": "waschanlage", "lat": 43.8206,  "lng": 5.01623, "note": "114 Av. de la Pomme, 13750 Plan-d'Orgon\n+33 4 90 73 14 51" },
     { "name": "F - Rungis", "category": "waschanlage", "lat": 48.752269843861576,  "lng": 2.360636169439818, "note": "Sogaris, Pl. de la Logistique, 94150 Rungis" },
     { "name": "F - St.Quentin - QRO Lavage 38", "category": "waschanlage", "lat": 45.66063,  "lng": 5.10588, "note": "123 Rue Santoyon, 38070 Saint-Quentin-Fallavier\nwww.qro-lavage.fr\n+33 4 74 94 20 76" },
-    { "name": "F - Toulouse - Lavatrans Fondeyre", "category": "waschanlage", "lat": 43.64301,  "lng": 1.42744, "note": "1 Av. de Fondeyre, 31200 Toulouse\nreseau.lavatrans.com\n+33 5 61 57 11 74" }
+    { "name": "F - Toulouse - Lavatrans Fondeyre", "category": "waschanlage", "lat": 43.64301,  "lng": 1.42744, "note": "1 Av. de Fondeyre, 31200 Toulouse\nreseau.lavatrans.com\n+33 5 61 57 11 74" },
+    
+    { "name": "FIN - Helsinki - VAK Huoltopalvelut Oy", "category": "waschanlage", "lat": 60.30704,  "lng": 24.88984, "note": "Suokallionkuja 5, 01740 Vantaa\nvak.fi\n+358 20 7656420" },
     
   ]
