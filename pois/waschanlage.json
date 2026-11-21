@@ -130,4 +130,58 @@
     { "name": "N - Oslo Region - Lierskogen Storbilbvasken", "category": "waschanlage", "lat": 59.80585,  "lng": 10.29696, "note": "Gjellebekkstubben 23, 3420 Lierskogen" },
     { "name": "N - Stavanger Region - Jæren Large Car Wash Bryne", "category": "waschanlage", "lat": 58.74468,  "lng": 5.65276, "note": "Robotvegen 3, 4340 Bryne\njaerenstorbilvask.no\n+47 51 77 94 98" }
     
+    { "name": "NL - A7 - NOCACO TruckWash", "category": "waschanlage", "lat": 53.16515,  "lng": 6.87659, "note": "Beneluxweg 37, 9636 HP Zuidbroek" },
+    { "name": "NL - Amsterdam - Austria Group BV", "category": "waschanlage", "lat": 52.33085,  "lng": 4.9703, "note": "Verrijn Stuartweg 52, 1112 AX Diemen\nwww.oostenrijkgroup.nl\n+31 20 695 2511" },
+    { "name": "NL - Amsterdam - Betham TruckWash", "category": "waschanlage", "lat": 52.28941,  "lng": 4.75969, "note": "Folkstoneweg 9, 1118 LM Schiphol" },
+    { "name": "NL - Amsterdam - Truckwash 1", "category": "waschanlage", "lat": 52.39566,  "lng": 4.80031, "note": "Galwin 4, 1046 AW Amsterdam\ntruckwash1group.nl\n+31 20 303 5135" },
+    { "name": "NL - Amsterdam - Truck Wash Aalsmeer BV", "category": "waschanlage", "lat": 52.2606,  "lng": 4.79978, "note": "Afmijnstraat 4, 1187 ZZ Aalsmeer\nwww.truckwash1group.nl\n+31 20 303 5112" },
+    { "name": "NL - Amsterdam - Zijdelweg 23", "category": "waschanlage", "lat": 52.25376,  "lng": 4.82423, "note": "Zijdelweg 23, 1187 ZM Amstelveen" },
+    { "name": "NL - Bodegraven - Truckwash 1 Bodegraven BV", "category": "waschanlage", "lat": 52.06981,  "lng": 4.74451, "note": "Europaweg 1e, 2411 NE Bodegraven\nwww.truckwash1group.nl\n+31 172 619 499" },
+    { "name": "NL - Doetinchem - TipTop Car and Truck Cleaning", "category": "waschanlage", "lat": 51.94625,  "lng": 6.2836, "note": "Braamtseweg 10, 7007 CK Doetinchem\ntiptopgroep.nl\n+31 314 354 445" },
+    { "name": "NL - Rotterdam - Truckwash 1", "category": "waschanlage", "lat": 51.87344,  "lng": 4.26311, "note": "Tweedweg 20, 3197 LM Botlek Rotterdam\nwww.truckwash1group.nl\n+31 10 296 7764" },
+    { "name": "NL - Utrecht - TruckWash 1", "category": "waschanlage", "lat": 52.10605,  "lng": 5.06445, "note": "Reactorweg 27, 3542 AD Utrecht" },
+    
+    { "name": "P - Lissabon - Bus Park Camarate", "category": "waschanlage", "lat": 38.79362,  "lng": -9.13929, "note": "" }
+    
+    { "name": "PL - Grenze D/PL, MYJNIA TIR", "category": "waschanlage", "lat": 51.66009,  "lng": 14.76452, "note": "" },
+    { "name": "PL - Grenze D/PL, AUTO-MYJNIA OLSZYNA PAWEŁ BANAŚ", "category": "waschanlage", "lat": 51.66497,  "lng": 14.76588, "note": "e36, 68-212 Olszyna\n+48 782 829 000" },
+    { "name": "PL - Krakow, Myjnia TIR", "category": "waschanlage", "lat": 50.08606,  "lng": 20.06743, "note": "" },
+    { "name": "PL - Krakow, Region", "category": "waschanlage", "lat": 50.15081,  "lng": 19.44018, "note": "" },
+    { "name": "PL - Lagow - Myjnia TIR", "category": "waschanlage", "lat": 52.30255,  "lng": 15.24414, "note": "" },
+    { "name": "PL - Okmiany, Myjnia dla TIR", "category": "waschanlage", "lat": 51.27487,  "lng": 15.78599, "note": "Okmiany 1B, 59-225\n+48 518 433 272" },
+    { "name": "PL - Pawlowice - Uniwar myjnia Tir Bus", "category": "waschanlage", "lat": 49.95937,  "lng": 18.72333, "note": "Katowicka 10, 43-250 Pawłowice" },
+    { "name": "PL - Warschau Region - Aran Myjnia TIR", "category": "waschanlage", "lat": 52.07312,  "lng": 20.77238, "note": "Aleja Katowicka 215, 05-831 Młochów\n+48 501 761 848" },
+    { "name": "PL - Warschau Region - LAVERE MYJNIA BUS - TIR", "category": "waschanlage", "lat": 52.08314,  "lng": 21.03408, "note": "Okulickiego 4, 05-500 Piaseczno" },
+    { "name": "PL - Warschau Region - Szosa Jadowska 53", "category": "waschanlage", "lat": 52.35765,  "lng": 21.26982, "note": "Szosa Jadowska 53, 05-200 Nowe Lipiny" },
+    { "name": "PL - Warschau Region - TruckWash", "category": "waschanlage", "lat": 52.21068,  "lng": 20.68631, "note": "05-860 Święcice" },
+    
+    { "name": "S - Göteborg - Partille Lastbilstvätt", "category": "waschanlage", "lat": 57.74023,  "lng": 12.08308, "note": "Järnringen 56, 433 30 Partille" },
+    { "name": "S - Göteborg - TideCar Lastbilstvätt Stigs Center", "category": "waschanlage", "lat": 57.74886,  "lng": 11.99299, "note": "Importgatan 12, 422 46 Hisings Backa\ntidecar.se\n+46 31 52 39 00" },
+    { "name": "S - Helsingborg - Besikta Bilprovning Helsingborg - Ättekulla", "category": "waschanlage", "lat": 56.00994,  "lng": 12.77618, "note": "Stenbrovägen 15, 253 68 Helsingborg\nbesikta.se\n+46 77 440 08 00" },
+    { "name": "S - Mälmö - Truckwash GP-Last", "category": "waschanlage", "lat": 55.6188,  "lng": 13.02814, "note": "Väderögatan 8, 211 24 Malmö\nwww.gplast.se" },
+    { "name": "S - Malmö - IPS Malmö AB", "category": "waschanlage", "lat": 55.62323,  "lng": 13.0133, "note": "Lodgatan 20, 211 00 Malmö\nipsnordic.com\n+46 72 254 15 57" },
+    { "name": "S - Örebro - LP Truckwash", "category": "waschanlage", "lat": 59.23618,  "lng": 15.13683, "note": "Berglundavägen 20, 702 36 Örebro\nwww.lplastbilstvatt.se/n+46 10 491 40 00" },
+    { "name": "S - Stockholm - Mekka Service", "category": "waschanlage", "lat": 59.2025,  "lng": 18.12072, "note": "" },
+    { "name": "S - Stockholm - Scania TruckCenter", "category": "waschanlage", "lat": 59.26179,  "lng": 17.89907, "note": "Kungens Kurvaleden 5, 141 75 Kungens Kurva\n\nACHTUNG: sehr teuer! Ca. 150,- EUR" },
+    { "name": "S - Stockholm - VOLVO Truck Center", "category": "waschanlage", "lat": 59.26202,  "lng": 17.90678, "note": "Prismavägen 8, 141 75 Kungens Kurva\n\nACHTUNG: sehr teuer! Ca. 150,- EUR" },
+    { "name": "S - Stockholm - Wash Center Kameesy", "category": "waschanlage", "lat": 59.15244,  "lng": 18.1198, "note": "Rudanvägen 4, 136 50 Jordbro\nkameesywashcenter.se/n+46 73 592 12 93" },
+    
+    { "name": "SCO - Glasgow - Rainbow Soft Cloth Carwash & Valet Centre", "category": "waschanlage", "lat": 55.86825,  "lng": -4.31115, "note": "210 Castlebank St, Glasgow G11 6DN" },
+    
+    { "name": "SK - Bratislava 15km nördlich - TruckWash", "category": "waschanlage", "lat": 48.59281,  "lng": 16.98993, "note": "Öffnungszeiten:\nMo.-So. 07:00-21:00 Uhr" },
+    { "name": "SK - Bratislava - J & P Tank Wash, Ltd.", "category": "waschanlage", "lat": 48.13764,  "lng": 17.18943, "note": "Závodná 11202/1A, 821 06 Bratislava-Podunajské Biskupice\nwww.tankwash.eu\n+421 911 254 833" },
+    
+    { "name": "UK - Ashford - International Truck Stop", "category": "waschanlage", "lat": 51.12253,  "lng": 0.9061, "note": "Arrowhead Rd, Sevington, Ashford TN24 0FL" },
+    { "name": "UK - Avonmouth - LPW Truckwash", "category": "waschanlage", "lat": 51.50436,  "lng": -2.69008, "note": "AVON LODGE, Third Way, Avonmouth, Bristol BS11 9YP\nlpweurope.com/n+44 117 938 1321" },
+    { "name": "UK - Cardiff - Adventure Travel", "category": "waschanlage", "lat": 51.47115,  "lng": -3.14168, "note": "Coaster Pl, Cardiff CF10 4XZ\nwww.adventuretravel.cymru\n+44 29 2044 2040" },
+    { "name": "UK - Castleford - LPW Truckwash", "category": "waschanlage", "lat": 53.71302,  "lng": -1.40048, "note": "Whitwood Truckstop, Express Way, Castleford WF10 5QH\nlpweurope.com\n+44 1977 630196" },
+    { "name": "UK - Exelby Coneygarth - LPW Truckwash", "category": "waschanlage", "lat": 54.31285,  "lng": -1.56961, "note": "Leases Rd, Northallerton DL7 9DD\nlpweurope.com/n+44 1677 455226" },
+    { "name": "UK - Felixstowe - LPW Truckwash", "category": "waschanlage", "lat": 51.96214,  "lng": 1.31574, "note": "Trinity Ave, Felixstowe IP11 4XA\nwww.lpweurope.com/n+44 1394 617896" },
+    { "name": "UK - Lymm Truckwash Ltd", "category": "waschanlage", "lat": 53.36107,  "lng": -2.50284, "note": "Poplar Park, Cliff Ln, Lymm, Warrington WA13 0TD\nwww.lymmtruckwash.co.uk/n+44 1925 754586" },
+    { "name": "UK - Lymm Truckwash Ltd 2", "category": "waschanlage", "lat": 53.35934,  "lng": -2.50337, "note": "" },
+    { "name": "UK - M27 FR Romsey", "category": "waschanlage", "lat": 50.95592,  "lng": -1.44949, "note": "" },
+    { "name": "UK - M56 Chester Motorway Services", "category": "waschanlage", "lat": 53.26865,  "lng": -2.80477, "note": "" },
+    { "name": "UK - Purfleet - LPW Truckwash", "category": "waschanlage", "lat": 51.49725,  "lng": 0.22621, "note": "Juliette Way, Purfleet-on-Thames, Purfleet RM15 4YD\nlpweurope.com/n+44 1708 890816" }
+    
+
   ]
