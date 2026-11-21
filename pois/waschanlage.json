@@ -128,7 +128,7 @@
     { "name": "N - Oslo Region - Gardermoen, Nettbuss Large Car Wash", "category": "waschanlage", "lat": 60.1777,  "lng": 11.08444, "note": "Gardermovegen 215, 2060 Gardermoen\n+47 916 70 333\n\nÖffnungszeiten:\nMontag 07:00–18:00\nDienstag 07:00–18:00\nMittwoch 07:00–18:00\nDonnerstag 07:00–18:00\nFreitag 07:00–18:00\nSamstag Geschlossen\nSonntag Geschlossen" },
     { "name": "N - Oslo Region - IPS Truck Wash", "category": "waschanlage", "lat": 60.17802,  "lng": 11.14592, "note": "Lautmovegen 95, 2067 Jessheim\nipsnordic.com\n+47 990 99 411" },
     { "name": "N - Oslo Region - Lierskogen Storbilbvasken", "category": "waschanlage", "lat": 59.80585,  "lng": 10.29696, "note": "Gjellebekkstubben 23, 3420 Lierskogen" },
-    { "name": "N - Stavanger Region - Jæren Large Car Wash Bryne", "category": "waschanlage", "lat": 58.74468,  "lng": 5.65276, "note": "Robotvegen 3, 4340 Bryne\njaerenstorbilvask.no\n+47 51 77 94 98" }
+    { "name": "N - Stavanger Region - Jæren Large Car Wash Bryne", "category": "waschanlage", "lat": 58.74468,  "lng": 5.65276, "note": "Robotvegen 3, 4340 Bryne\njaerenstorbilvask.no\n+47 51 77 94 98" },
     
     { "name": "NL - A7 - NOCACO TruckWash", "category": "waschanlage", "lat": 53.16515,  "lng": 6.87659, "note": "Beneluxweg 37, 9636 HP Zuidbroek" },
     { "name": "NL - Amsterdam - Austria Group BV", "category": "waschanlage", "lat": 52.33085,  "lng": 4.9703, "note": "Verrijn Stuartweg 52, 1112 AX Diemen\nwww.oostenrijkgroup.nl\n+31 20 695 2511" },
