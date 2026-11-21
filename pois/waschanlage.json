@@ -141,7 +141,7 @@
     { "name": "NL - Rotterdam - Truckwash 1", "category": "waschanlage", "lat": 51.87344,  "lng": 4.26311, "note": "Tweedweg 20, 3197 LM Botlek Rotterdam\nwww.truckwash1group.nl\n+31 10 296 7764" },
     { "name": "NL - Utrecht - TruckWash 1", "category": "waschanlage", "lat": 52.10605,  "lng": 5.06445, "note": "Reactorweg 27, 3542 AD Utrecht" },
     
-    { "name": "P - Lissabon - Bus Park Camarate", "category": "waschanlage", "lat": 38.79362,  "lng": -9.13929, "note": "" }
+    { "name": "P - Lissabon - Bus Park Camarate", "category": "waschanlage", "lat": 38.79362,  "lng": -9.13929, "note": "" },
     
     { "name": "PL - Grenze D/PL, MYJNIA TIR", "category": "waschanlage", "lat": 51.66009,  "lng": 14.76452, "note": "" },
     { "name": "PL - Grenze D/PL, AUTO-MYJNIA OLSZYNA PAWEŁ BANAŚ", "category": "waschanlage", "lat": 51.66497,  "lng": 14.76588, "note": "e36, 68-212 Olszyna\n+48 782 829 000" },
@@ -183,5 +183,4 @@
     { "name": "UK - M56 Chester Motorway Services", "category": "waschanlage", "lat": 53.26865,  "lng": -2.80477, "note": "" },
     { "name": "UK - Purfleet - LPW Truckwash", "category": "waschanlage", "lat": 51.49725,  "lng": 0.22621, "note": "Juliette Way, Purfleet-on-Thames, Purfleet RM15 4YD\nlpweurope.com/n+44 1708 890816" }
     
-
   ]
