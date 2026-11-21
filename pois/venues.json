@@ -1,5 +1,6 @@
 [
-    { "name": "Uber Arena", "category": "venues", "lat": 52.506440783069905,  "lng": 13.443634556904087, "note": "Uber Platz 1, 10243 Berlin\nwww.uber-arena.de\n+49 30 20 607 080", "image": "fotos/venues/berlinuberarena.png" },
-    { "name": "ZAG Arena", "category": "venues", "lat": 52.32259915895743,   "lng": 9.816483917888027, "note": "Expo Plaza 7, 30539 Hannover\nwww.zag-arena-hannover.de/\n0511 87001195", "image": "fotos/venues/hannoverzagarena.jpeg" }
+    { "name": "Uber Arena", "category": "venues", "lat": 52.506440783069905, "lng": 13.443634556904087, "note": "Uber Platz 1, 10243 Berlin\nwww.uber-arena.de\n+49 30 20 607 080", "image": "fotos/venues/berlinuberarena.png" },
+    { "name": "ZAG Arena", "category": "venues", "lat": 52.32259915895743, "lng": 9.816483917888027, "note": "Expo Plaza 7, 30539 Hannover\nwww.zag-arena-hannover.de\n0511 87001195", "image": "fotos/venues/hannoverzagarena.jpeg" },
+    { "name": "Klub Stodola Warschau", "category": "venues", "lat": 52.21168003680742, "lng": 21.010215999939483, "note": "Stefana Batorego 10, 02-591 Warszawa", "images": ["fotos/venues/warschaustodola-1.jpg, "fotos/venues/warschaustodola-1.jpg"] }
 
   ]
