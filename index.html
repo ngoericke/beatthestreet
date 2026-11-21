@@ -266,6 +266,7 @@ const el = new AdvancedMarkerElement({ map, position: { lat: p.lat, lng: p.lng }
         imgs.forEach(src => {
           const a = document.createElement("a");
           a.href = src;
+          a.onclick = e => { e.preventDefault(); openLightbox(src); };
           a.target = "_blank";
           a.rel = "noopener";
           const img = document.createElement("img");
