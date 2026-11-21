@@ -77,7 +77,13 @@
 .info .note { white-space: pre-line; overflow-wrap: anywhere; }
 .info .note a { display: inline; margin: 0; padding: 0; background: none; border-radius: 0; color: #1f6feb; font-weight: inherit; text-decoration: underline; }
 .info .x { position: absolute; top: -4px; right: -4px; width: 32px; height: 32px; border: 0; background: none; font-size: 26px; line-height: 1; color: #5b6a78; cursor: pointer; }
-.info .photo { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; margin: 6px 0 8px; background: #d5dce3; }
+.info .photos { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 6px 0 8px; border-radius: 8px; }
+.info .photos::-webkit-scrollbar { display: none; }
+.info .photos a { flex: 0 0 100%; scroll-snap-align: center; display: block; margin: 0; padding: 0; background: none; border-radius: 0; }
+.info .photos img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; background: #d5dce3; }
+.info .dots { display: flex; justify-content: center; gap: 5px; margin: -2px 0 6px; }
+.info .dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
+.info .dots i.on { background: #14202b; }
 </style>
 </head>
 <body>
@@ -236,15 +242,39 @@ const el = new AdvancedMarkerElement({ map, position: { lat: p.lat, lng: p.lng }
       box.querySelector("h2").textContent = p.name;
       box.querySelector(".cat").textContent = cat.label;
       linkify(box.querySelector(".note"), p.note || "");
-      if (p.image) {
-  const img = document.createElement("img");
-  img.className = "photo";
-  img.alt = p.name;
-  img.loading = "lazy";
-  img.src = p.image;
-  img.onerror = () => img.remove();
-  box.insertBefore(img, box.querySelector(".note"));
-}
+      const imgs = [].concat(p.images || p.image || []).filter(Boolean);
+      if (imgs.length) {
+        const strip = document.createElement("div");
+        strip.className = "photos";
+        imgs.forEach(src => {
+          const a = document.createElement("a");
+          a.href = src;
+          a.target = "_blank";
+          a.rel = "noopener";
+          const img = document.createElement("img");
+          img.alt = p.name;
+          img.loading = "lazy";
+          img.src = src;
+          img.onerror = () => a.remove();
+          a.appendChild(img);
+          strip.appendChild(a);
+        });
+        box.insertBefore(strip, box.querySelector(".note"));
+        if (imgs.length > 1) {
+          const dots = document.createElement("div");
+          dots.className = "dots";
+          imgs.forEach((_, i) => {
+            const d = document.createElement("i");
+            if (i === 0) d.className = "on";
+            dots.appendChild(d);
+          });
+          box.insertBefore(dots, box.querySelector(".note"));
+          strip.addEventListener("scroll", () => {
+            const i = Math.round(strip.scrollLeft / strip.clientWidth);
+            [...dots.children].forEach((d, k) => d.classList.toggle("on", k === i));
+          });
+        }
+      }
       box.querySelector(".x").onclick = () => infoWindow.close();
       box.querySelector("a.route").href = nav;
       infoWindow.setContent(box);
