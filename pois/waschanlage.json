@@ -29,6 +29,7 @@
     { "name": "D - Berlin - KULTOUR", "category": "waschanlage", "lat": 52.45924, "lng": 13.3944, "note": "Ordensmeisterstraße 40, 12099 Berlin-Bezirk Tempelhof-Schöneberg\nwww.bussanova.de\n+49 30 71099566" },
     { "name": "D - Berlin - Hoppegarten", "category": "waschanlage", "lat": 52.50657, "lng": 13.64184, "note": "Digitalstraße 8, 15366 Hoppegarten-Dahlwitz-Hoppegarten\n+49 3342 308077" },
     { "name": "D - Berlin - Grothe GmbH", "category": "waschanlage", "lat": 52.53425, "lng": 13.31347, "note": "Beusselstraße 44n-q, Mitte, 10553 Berlin\nwww.lkw-waschhalle.de\n+49 30 39875557" },
+    { "name": "D - A9 / Bitterfeld", "category": "waschanlage", "lat": 51.63748454816833, "lng": 12.200272576791846, "note": "Sonnenfeld 4, 06766 Bitterfeld-Wolfen\nwww.colognetruckwash.de\n+49 3493 9751299" },
     { "name": "D - Bottrop Truckwash", "category": "waschanlage", "lat": 51.50957, "lng": 6.95621, "note": "Am Kruppwald 11, 46238 Bottrop-Welheimer Mark\nwww.truckwash-bottrop.de\n+49 2041 107825" },
     { "name": "D - Braunschweig", "category": "waschanlage", "lat": 52.33748, "lng": 10.41701, "note": "Cologne Truck Wash\nRuhmrischkamp 5, 38179 Schwülper\nwww.colognetruckwash.de\n+49 5303 9709964" },
     
@@ -40,6 +41,7 @@
     { "name": "D - Hamburg - Aral Autohof", "category": "waschanlage", "lat": 53.53678, "lng": 10.06456, "note": "Großmannstraße 195-211, 20539 Hamburg\n+49 4078079995" },
     { "name": "D - Hamburg - Clean & Green", "category": "waschanlage", "lat": 53.56287, "lng": 9.96901, "note": "Lagerstraße 26, 20357 Hamburg-Altona\nwww.waschstrasse-hh.de\n+49 40 43254383" },
     { "name": "D - Hamburg - EvoBus", "category": "waschanlage", "lat": 53.54948, "lng": 10.03792, "note": "Ausschläger Weg 59, 20537 Hamburg\nwww.omniplus.com\n+49 40 2515090" },
+    { "name": "D - Kassel", "category": "waschanlage", "lat": 51.272244564959166, "lng": 9.527832945516625, "note": "Cologne Truck Wash\nAlexander-von-Humboldt-Straße 1, 34253 Lohfelden-Waldau\nwww.colognetruckwash.de\n+49 561 5105555" },
     { "name": "D - Köln", "category": "waschanlage", "lat": 50.90847, "lng": 7.05416, "note": "Cologne Truck Wash\nEttore-Bugatti-Straße 49, 51149 Köln-Porz\nwww.colognetruckwash.de\n+49 2203 9772240" },
     { "name": "D - Köln - Eifeltor", "category": "waschanlage", "lat": 50.88892, "lng": 6.92572, "note": "Cologne Truck Wash\nAm Eifeltor 1, 50997 Köln-Rodenkirchen\nwww.colognetruckwash.de\n+49 221 8011033" },
     { "name": "D - Leipzig - Möller Fahrzeugbau", "category": "waschanlage", "lat": 51.36438, "lng": 12.45916, "note": "Ostwaldstraße 6, 04329 Leipzig-Ost\nwww.moeller-fahrzeugbau.de\n+49 341 904470" },
