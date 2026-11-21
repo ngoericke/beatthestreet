@@ -103,4 +103,31 @@
     
     { "name": "FIN - Helsinki - VAK Huoltopalvelut Oy", "category": "waschanlage", "lat": 60.30704,  "lng": 24.88984, "note": "Suokallionkuja 5, 01740 Vantaa\nvak.fi\n+358 20 7656420" },
     
+    { "name": "H - Budapest - A2 Venox", "category": "waschanlage", "lat": 47.41103,  "lng": 19.23027, "note": "Vecsés, Almáskert út 1, 2220\nwww.axh.hu\n+36 80 080 246" },
+    { "name": "H - Budapest - Kamion Mosó", "category": "waschanlage", "lat": 47.57055,  "lng": 19.13508, "note": "Budapest, Bogáncs u. 1-3, 1151\nkamionfurdo.hu\n+36 70 944 2031" },
+    
+    { "name": "I - A4 - Latisana - truckwash", "category": "waschanlage", "lat": 45.80767,  "lng": 13.01675, "note": "V. Lignano, 23, 33050 Ronchis UD\nwww.nection.eu\n+39 0431 054200" },
+    { "name": "I - Mailand - Autolavaggio Pala", "category": "waschanlage", "lat": 45.40143,  "lng": 9.12987, "note": "Via Giuseppe Verdi, 20057 Assago MI\n+39 02 4570 3252" },
+    { "name": "I - Mailand - TruckWash", "category": "waschanlage", "lat": 45.45393,  "lng": 9.25606, "note": "Via Gaudenzio Fantoli, 22, 20138 Milano MI" },
+    { "name": "I - Monza - Via E. de Amicis, 54/54", "category": "waschanlage", "lat": 45.56695,  "lng": 9.2279, "note": "Via E. de Amicis, 54/54, 20092 Cinisello Balsamo MB" },
+    { "name": "I - Padua", "category": "waschanlage", "lat": 45.49637,  "lng": 11.82869, "note": "Via Buccia, 22A, 35010 Del Medico PD" },
+    { "name": "I - Rom", "category": "waschanlage", "lat": 41.82407,  "lng": 12.40497, "note": "Via della Magliana, 856, 00148 Roma RM" },
+    { "name": "I - Turin - I.O.T.T. srl", "category": "waschanlage", "lat": 45.04122,  "lng": 7.58255, "note": "Str. del Portone, 900/A, 10137 Torino TO\nwww.iott.it\n+39 011 314 9046" },
+    { "name": "I - Turin", "category": "waschanlage", "lat": 45.02949,  "lng": 7.58989, "note": "Via Giotto, 15, 10092 Beinasco TO, Italien" },
+    
+    { "name": "IRL - Dublin - Clarke Auto Wash Ltd", "category": "waschanlage", "lat": 53.33401,  "lng": -6.37043, "note": "Unit 8 O'Casey Ave, Park W Rd, Industrial Park, Dublin, D12 KW10\nwww.autowash.ie\n+353 1 623 3631" },
+    { "name": "IRL - Dublin - thetruckwash.ie", "category": "waschanlage", "lat": 53.40195,  "lng": -6.2276, "note": "Unit AF8, Clonshaugh Business & Technology Park, Dublin, D17 E782\n+353 1 844 4145" },
+    { "name": "IRL - Dublin - Topaz", "category": "waschanlage", "lat": 53.35484,  "lng": -6.21239, "note": "" },
+    
+    { "name": "LT - A5 - SAURIDA Kušliškiai", "category": "waschanlage", "lat": 54.4357,  "lng": 23.20514, "note": "Kalvarijos r, 69315 Kušliškiai\nwww.saurida.lt\n+370 618 38161" },
+    { "name": "LT - Marijampole - A5 FR Marijampole", "category": "waschanlage", "lat": 54.63456,  "lng": 23.43508, "note": "Kantališkių kaimas, 69481 Kantališkiai\nwww.sunkvezimiuplovykla.lt\n+370 670 36961" },
+    
+    { "name": "N - Oslo - IPS Service as Avd. Termo", "category": "waschanlage", "lat": 59.93608,  "lng": 10.86433, "note": "Strømsveien 314, 1081 Oslo\nipsnordic.com\n+47 907 05 693" },
+    { "name": "N - Oslo - Softwash AS", "category": "waschanlage", "lat": 59.93599,  "lng": 59.93599, "note": "Waschhalle! per Hand waschen!" },
+    { "name": "N - Oslo - Truck Wash AS", "category": "waschanlage", "lat": 59.92608,  "lng": 10.82035, "note": "Knud Bryns vei 1, 0581 Oslo\nwww.oslotruckwash.no\n+47 24 07 66 60" },
+    { "name": "N - Oslo Region - Gardermoen, Nettbuss Large Car Wash", "category": "waschanlage", "lat": 60.1777,  "lng": 11.08444, "note": "Gardermovegen 215, 2060 Gardermoen\n+47 916 70 333\n\nÖffnungszeiten:\nMontag 07:00–18:00\nDienstag 07:00–18:00\nMittwoch 07:00–18:00\nDonnerstag 07:00–18:00\nFreitag 07:00–18:00\nSamstag Geschlossen\nSonntag Geschlossen" },
+    { "name": "N - Oslo Region - IPS Truck Wash", "category": "waschanlage", "lat": 60.17802,  "lng": 11.14592, "note": "Lautmovegen 95, 2067 Jessheim\nipsnordic.com\n+47 990 99 411" },
+    { "name": "N - Oslo Region - Lierskogen Storbilbvasken", "category": "waschanlage", "lat": 59.80585,  "lng": 10.29696, "note": "Gjellebekkstubben 23, 3420 Lierskogen" },
+    { "name": "N - Stavanger Region - Jæren Large Car Wash Bryne", "category": "waschanlage", "lat": 58.74468,  "lng": 5.65276, "note": "Robotvegen 3, 4340 Bryne\njaerenstorbilvask.no\n+47 51 77 94 98" }
+    
   ]
