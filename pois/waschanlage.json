@@ -1,10 +1,12 @@
 [
     { "name": "A - Wulkprodersdorf A3", "category": "waschanlage", "lat": 47.80624, "lng": 16.49969, "note": "Industriegelände 2, 7041 Wulkaprodersdorf FR Ungarn" },
+    
     { "name": "B - Antwerpen - WashVille", "category": "waschanlage", "lat": 51.26768, "lng": 4.37502, "note": "Zomerweg 30 B, 2030 Antwerpen" },
     { "name": "B - Antwerpen - WashVille Truckwash 1", "category": "waschanlage", "lat": 51.27238, "lng": 4.36923, "note": "Zomerweg 30 B, 2030 Antwerpen" },
     { "name": "B - Brüssel - Truck Wash", "category": "waschanlage", "lat": 50.90779, "lng": 4.46281, "note": "Vliegveld 708, 1931 Steenokkerzeel" },
     { "name": "B - Brüssel - Cargovil Truck Wash", "category": "waschanlage", "lat": 50.9492, "lng": 4.42636, "note": "Erasmuslaan 15/B, 1804 Zemst" },
     { "name": "B - Charleroi - Imperial Wash", "category": "waschanlage", "lat": 50.47367, "lng": 4.44745, "note": "Av. des Etats-Unis 90, 6041 Charleroi" },
+    
     { "name": "CH - Härkingen - Truck Center Mittelland AG", "category": "waschanlage", "lat": 47.31501, "lng": 7.81333, "note": "Pfannenstiel 2, 4624 Härkingen" },
     { "name": "CH - Herzogenbuchsee - Truck Wash", "category": "waschanlage", "lat": 47.19428, "lng": 7.69802, "note": "Biblis 7, 3360 Herzogenbuchsee" },
     { "name": "CH - Oberbuchsiten - Truck Wash", "category": "waschanlage", "lat": 47.30828, "lng": 7.77786, "note": "Industriestrasse 620, 4625 Oberbuchsiten" },
@@ -13,7 +15,9 @@
     { "name": "CH - Winterthur - EVO-Bus", "category": "waschanlage", "lat": 47.50566, "lng": 8.67928, "note": "" },
     { "name": "CH - Worb (Bern)", "category": "waschanlage", "lat": 46.93271, "lng": 7.55877, "note": "Sonnenbodenstrasse 7, 3076 Worb" },
     { "name": "CH - Zürich VBZ", "category": "waschanlage", "lat": 47.41495, "lng": 8.55675, "note": "" },
+    
     { "name": "CZ - Prag Outside - 24/7 TRUCK WASH EW Eurowag Modletice", "category": "waschanlage", "lat": 49.97209, "lng": 14.61183, "note": "Modletice 195, 251 01 Modletice" },
+    
     { "name": "D - A1 Sittensen - Euro Truck Wash", "category": "waschanlage", "lat": 53.29391, "lng": 9.5054, "note": "Hansestraße 10, 27419 Sittensen" },
     { "name": "D - Freiburg - Lkw-Waschanlage", "category": "waschanlage", "lat": 48.01882, "lng": 7.84299, "note": "Engesserstraße 13, 79108 Freiburg im Breisgau-Nord" },
     { "name": "D - Lauenau Waschcenter", "category": "waschanlage", "lat": 52.27608, "lng": 9.35294, "note": "Magirusstraße 4, 31867 Lauenau" },
@@ -32,7 +36,6 @@
     { "name": "D - A9 / Bitterfeld", "category": "waschanlage", "lat": 51.63748454816833, "lng": 12.200272576791846, "note": "Sonnenfeld 4, 06766 Bitterfeld-Wolfen\nwww.colognetruckwash.de\n+49 3493 9751299" },
     { "name": "D - Bottrop Truckwash", "category": "waschanlage", "lat": 51.50957, "lng": 6.95621, "note": "Am Kruppwald 11, 46238 Bottrop-Welheimer Mark\nwww.truckwash-bottrop.de\n+49 2041 107825" },
     { "name": "D - Braunschweig", "category": "waschanlage", "lat": 52.33748, "lng": 10.41701, "note": "Cologne Truck Wash\nRuhmrischkamp 5, 38179 Schwülper\nwww.colognetruckwash.de\n+49 5303 9709964" },
-    
     { "name": "D - Dortmund - Brummi Brause", "category": "waschanlage", "lat": 51.52984, "lng": 7.52347, "note": "Unterste-Wilms-Straße 31, 44143 Dortmund-Brackel\n+49 231 5622800" },
     { "name": "D - Dortmund EvoBus", "category": "waschanlage", "lat": 51.53024, "lng": 7.52836, "note": "Niedersachsenweg 20, 44309 Brackel\nwww.dortmund.omniplus.com\n+49 23151820" },
     { "name": "D - Dresden - Bus & Truck Wash", "category": "waschanlage", "lat": 51.06784, "lng": 13.68663, "note": "Washingtonstraße 40, 01139 Dresden-Pieschen\nwww.kreisel-dresden.de\n+49 351 79525694" },
@@ -51,6 +54,51 @@
     { "name": "D - Raunheim - My Truckwash", "category": "waschanlage", "lat": 50.03209, "lng": 8.48055, "note": "Werrastraße 4, 65479 Raunheim\n+49 6142 8330707" },
     { "name": "D - Stuttgart - SSB Omnibusbetriebshof", "category": "waschanlage", "lat": 48.78525, "lng": 9.223, "note": "Einfahrt über Gate SSB: Ulmer Str. 139, 70188 Stuttgart\n\nWaschen möglich Mo.-Fr. 08:00 - 15:00 Uhr\n\nNach der Einfahrt sofort rechts entlang der Halle fahren. Am Ende fährt man direkt auf die Waschhalle zu. Gate öffnet automatisch!\n\nBeat the Street - Account: 400884" },
     { "name": "D - Waldlaubersheim", "category": "waschanlage", "lat": 49.92611, "lng": 7.82222, "note": "Cologne Truck Wash\nFeldborn 6a, 55444 Waldlaubersheim-Gewerbepark Waldlaubersheim\nwww.colognetruckwash.de\n+49 6707 9153190" },
-    { "name": "F - Rungis", "category": "waschanlage", "lat": 48.752269843861576,  "lng": 2.360636169439818, "note": "Sogaris, Pl. de la Logistique, 94150 Rungis" }
-
+    
+    { "name": "DK - Aarhus - Truck Wash", "category": "waschanlage", "lat": 56.14915, "lng": 10.24405, "note": "Østhavnsvej 35, 8000 Aarhus, Dänemark\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Aarhus - Truck Wash", "category": "waschanlage", "lat": 56.14915, "lng": 10.24405, "note": "Østhavnsvej 35, 8000 Aarhus\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Koge - Copenhagen Truck Wash", "category": "waschanlage", "lat": 55.49052, "lng": 12.16378, "note": "Centervej 4, 4600 Køge\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Kopenhagen - Wash", "category": "waschanlage", "lat": 55.61061, "lng": 12.46513, "note": "Avedøreholmen 82B, 2650 Hvidovre\nwww.olsensvaskehal.dk\n+45 36 772121" },
+    { "name": "DK - Kopenhagen - Truck Wash", "category": "waschanlage", "lat": 55.6853, "lng": 12.38904, "note": "Fabriksparken 18, 2600 Albertslund\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Kopenhagen - Truck Wash", "category": "waschanlage", "lat": 55.61425, "lng": 12.49591, "note": "Stamholmen 219, 2650 Hvidovre\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Kopenhagen - Truck Wash", "category": "waschanlage", "lat": 55.6354, "lng": 12.25511, "note": "Letland Alle 2, 2630 Høje Taastrup\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Roskild - Truck Wash", "category": "waschanlage", "lat": 55.64491, "lng": 12.12676, "note": "Industrivej 45, 4000 Roskilde\ntruckwash.dk\n+45 43 717886" },
+    { "name": "DK - Saeby - Trafikcenter", "category": "waschanlage", "lat": 57.31359, "lng": 10.45252, "note": "Trafikcenter Sæby Syd 8, 9300 Sæby\nwww.stiholt.dk\n+45 96 898989" },
+    
+    { "name": "ES - Barcelona - My Truck Wash", "category": "waschanlage", "lat": 41.5393, "lng": 2.18731, "note": "Carrer Calderi, 08130, Barcelona\nmytruckwasheuropa.com\n+34 935 74 87 47" },
+    { "name": "ES - Barcelona - Tres Adanal", "category": "waschanlage", "lat": 41.41329, "lng": 2.21184, "note": "C de Puigcerdà, 107, Sant Martí, 08019 Barcelona\ntresdanal.eu" },
+    { "name": "ES - Burgos", "category": "waschanlage", "lat": 42.37626, "lng": -3.58782, "note": "Carretera N-1, km 248, 7, 09199 Rubena, Burgos\nwww.bi-bat.com\n+34 689 71 96 76" },
+    { "name": "ES - La Jonquera  - My Truck Wash", "category": "waschanlage", "lat": 42.39837, "lng": 2.87965, "note": "Repsol, 17700 La Jonquera, Girona\n+34 972 55 59 17" },
+    { "name": "ES - Madrid - My Truck Wash", "category": "waschanlage", "lat": 40.41813, "lng": -3.62899, "note": "Av. de Daroca, KM 0.400, Km 0.400, Cdad. Lineal, 28017 Madrid, Spanien\nwww.bp.com\n+34 917 54 23 41" },
+    { "name": "ES - Madrid - Lavadero Auto Minuto", "category": "waschanlage", "lat": 40.36517, "lng": -3.65657, "note": "Av. Villa de Vallecas, 32, Villa de Vallecas, 28053 Madrid\n+34 680 17 17 87" },
+    { "name": "ES - Madrid - My Truck Wash", "category": "waschanlage", "lat": 40.27555, "lng": -3.69958, "note": "C. Río Tinto, 0, 28906 Getafe, Madrid\nwww.mytruckwasheuropa.com\n+34 916 91 85 59" },
+    { "name": "ES - Madrid - RH Hidrolavados", "category": "waschanlage", "lat": 40.31523, "lng": -3.68535, "note": "C. Empleo, 17, Poligono Industrial los Olivos, 28906 Getafe, Madrid\nwww.lavadoyengraserhhidrolavado.es\n+34 916 84 57 93" },
+    { "name": "ES - Madrid - Rutas Hernando", "category": "waschanlage", "lat": 40.44242, "lng": -3.49307, "note": "PARQUE EMPRESARIAL PUERTA DE MADRID, C. de los Tapiceros, 13, 28830 Madrid\nwww.grupohernando.com\n+34 917 82 55 13" },
+    { "name": "ES - San Sebastian - Mowiztruck Wash", "category": "waschanlage", "lat": 43.283, "lng": -1.92547, "note": "Inaxio Berasarte Bidea, 2, 20115 Astigarraga\nmowiztruck.com\n+34 943 052185" },
+    { "name": "ES - Saragossa - My Truck Wash", "category": "waschanlage", "lat": 41.60658, "lng": -0.68992, "note": "Polígono el Saco, 12, 50172 Alfajarín, Zaragoza" },
+    { "name": "ES - Valcarce - Tankpool24", "category": "waschanlage", "lat": 42.65882, "lng": -6.91389, "note": "Ctra. N 6, Km 418, 24524 La Portela de Valcarce" },
+    { "name": "ES - Valencia - Lavadero de Camiones", "category": "waschanlage", "lat": 39.38769, "lng": -0.40033, "note": "riu d'albaida, 10, 46470 Albal, Valencia\nwww.lavaderodecamionesgalan.es\n+34 961 26 01 56" },
+  
+    { "name": "F - Arsy, Trans´Lav PL", "category": "waschanlage", "lat": 49.39804,  "lng": 2.69124, "note": "22 Rue de la Plaine, 60190 Arsy" },
+    { "name": "F - Begles - Impec Service Routiers", "category": "waschanlage", "lat": 44.79036,  "lng": -0.53461, "note": "2 Rue Denis Papin, 33130 Bègles\nwww.impec-service-routiers.fr\n+33 5 56 85 71 99" },
+    { "name": "F - Biarritz - Lavatrans Bayonne", "category": "waschanlage", "lat": 43.48818,  "lng": -1.41931, "note": "64990 Mouguerre" },
+    { "name": "F - Castelnau - Lavatrans Eurocentre", "category": "waschanlage", "lat": 43.76493,  "lng": 1.36832, "note": "Z.A.C Eurocentre, 3 rue de l'Ourmede, 31620 Castelnau-d'Estrétefonds\nreseau.lavatrans.com\n+33 5 61 09 16 90" },
+    { "name": "F - Cavaillon", "category": "waschanlage", "lat": 43.82724,  "lng": 5.05418, "note": "230 Chem. du Midi, 84300 Cavaillon\nwww.lavatrans.com\n+33 4 90 78 00 30" },
+    { "name": "F - Derval - Lavatrans", "category": "waschanlage", "lat": 47.64849,  "lng": -1.6645, "note": "Parc d'activité des Estuaires, Espace du Mortier, 2 Rue Lenoir, 44590 Derval\nwww.lavatrans.com\n+33 2 40 07 81 73" },
+    { "name": "F - Dunkerque", "category": "waschanlage", "lat": 50.97657,  "lng": 2.22014, "note": "4116 Rue DE LOOPERSFORT PORT, 59279 Craywick\nlavatrans.com\n+33 3 28 22 53 03" },
+    { "name": "F - Grans - QRO Lavage Grans 13", "category": "waschanlage", "lat": 43.60992,  "lng": 5.00646, "note": "76 rue ellen Macarthur, 13450 Grans\nwww.qro-lavage.fr" },
+    { "name": "F - Lille - Lavatrans", "category": "waschanlage", "lat": 50.58605,  "lng": 3.13985, "note": "178 Rue des Sureaux, 59262 Sainghin-en-Mélantois\nlavatrans.com" },
+    { "name": "F - Limoges", "category": "waschanlage", "lat": 45.89011,  "lng": 1.28917, "note": "6 Rue Jacques Goddet, 87280 Limoges\nlavatrans.com\n+33 5 55 35 41 80" },
+    { "name": "F - Lyon - QRO Lavage 38", "category": "waschanlage", "lat": 45.66063,  "lng": 45.66063, "note": "123 Rue Santoyon, 38070 Saint-Quentin-Fallavier\nwww.qro-lavage.fr\n+33 4 74 94 20 76" },
+    { "name": "F - Lyon", "category": "waschanlage", "lat": 45.83748,  "lng": 5.27528, "note": "30 allée des lièvres, 01150 Saint-Vulbas\nwww.s-netlavagepoidslourds.com\n+33 4 72 93 94 89" },
+    { "name": "F - Narbonne - QRO Lavage 11", "category": "waschanlage", "lat": 43.16154,  "lng": 2.9886, "note": "Zone Industrielle, Av. de Croix S, 11100 Narbonne\nqro-lavage.fr" },
+    { "name": "F - Nizza - Truck Wash", "category": "waschanlage", "lat": 43.66738,  "lng": 7.20354, "note": "11 Bd Georges Pompidou, 06200 Nice" },
+    { "name": "F - Paris", "category": "waschanlage", "lat": 48.78335,  "lng": 2.50365, "note": "59 Rue du Moulin Bateau, 94380 Bonneuil-sur-Marne\n\nMo.-Fr. 08:00-17:00 Uhr\n\nTel. +33 640 207 145" },
+    { "name": "F - Paris - XXXL Wash", "category": "waschanlage", "lat": 48.94551,  "lng": 2.29608, "note": "2 bis Rte du Bass. Numéro 5, 92230 Gennevilliers" },
+    { "name": "F - Perpignan - Truck Net", "category": "waschanlage", "lat": 42.68456,  "lng": 2.85965, "note": "850 Av. de Londres, 66000 Perpignan\ntrucknet.fr\n+33 4 68 39 88 01" },
+    { "name": "F - Plan d'Orgon - QRO Lavage 13", "category": "waschanlage", "lat": 43.8206,  "lng": 5.01623, "note": "114 Av. de la Pomme, 13750 Plan-d'Orgon\n+33 4 90 73 14 51" },
+    { "name": "F - Rungis", "category": "waschanlage", "lat": 48.752269843861576,  "lng": 2.360636169439818, "note": "Sogaris, Pl. de la Logistique, 94150 Rungis" },
+    { "name": "F - St.Quentin - QRO Lavage 38", "category": "waschanlage", "lat": 45.66063,  "lng": 5.10588, "note": "123 Rue Santoyon, 38070 Saint-Quentin-Fallavier\nwww.qro-lavage.fr\n+33 4 74 94 20 76" },
+    { "name": "F - Toulouse - Lavatrans Fondeyre", "category": "waschanlage", "lat": 43.64301,  "lng": 1.42744, "note": "1 Av. de Fondeyre, 31200 Toulouse\nreseau.lavatrans.com\n+33 5 61 57 11 74" }
+    
   ]
