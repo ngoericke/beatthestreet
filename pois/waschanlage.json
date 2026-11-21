@@ -123,7 +123,7 @@
     { "name": "LT - Marijampole - A5 FR Marijampole", "category": "waschanlage", "lat": 54.63456,  "lng": 23.43508, "note": "Kantališkių kaimas, 69481 Kantališkiai\nwww.sunkvezimiuplovykla.lt\n+370 670 36961" },
     
     { "name": "N - Oslo - IPS Service as Avd. Termo", "category": "waschanlage", "lat": 59.93608,  "lng": 10.86433, "note": "Strømsveien 314, 1081 Oslo\nipsnordic.com\n+47 907 05 693" },
-    { "name": "N - Oslo - Softwash AS", "category": "waschanlage", "lat": 59.93599,  "lng": 59.93599, "note": "Waschhalle! per Hand waschen!" },
+    { "name": "N - Oslo - Softwash AS", "category": "waschanlage", "lat": 59.93599,  "lng": 10.92757, "note": "Waschhalle! per Hand waschen!" },
     { "name": "N - Oslo - Truck Wash AS", "category": "waschanlage", "lat": 59.92608,  "lng": 10.82035, "note": "Knud Bryns vei 1, 0581 Oslo\nwww.oslotruckwash.no\n+47 24 07 66 60" },
     { "name": "N - Oslo Region - Gardermoen, Nettbuss Large Car Wash", "category": "waschanlage", "lat": 60.1777,  "lng": 11.08444, "note": "Gardermovegen 215, 2060 Gardermoen\n+47 916 70 333\n\nÖffnungszeiten:\nMontag 07:00–18:00\nDienstag 07:00–18:00\nMittwoch 07:00–18:00\nDonnerstag 07:00–18:00\nFreitag 07:00–18:00\nSamstag Geschlossen\nSonntag Geschlossen" },
     { "name": "N - Oslo Region - IPS Truck Wash", "category": "waschanlage", "lat": 60.17802,  "lng": 11.14592, "note": "Lautmovegen 95, 2067 Jessheim\nipsnordic.com\n+47 990 99 411" },
