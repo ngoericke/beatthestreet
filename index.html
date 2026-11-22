@@ -13,92 +13,95 @@
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <title>Beat the Street</title>
 <style>
-  :root {
-    --ink: #14202b;
-    --paper: #f4f6f8;
-    --line: #d5dce3;
-    --safe-top: env(safe-area-inset-top, 0px);
-    --safe-bottom: env(safe-area-inset-bottom, 0px);
-  }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; height: 100%; background: var(--ink); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; }
-  #map { position: fixed; inset: 0; width: 100%; height: 100%; }
-
-  .bar {
-    position: fixed; left: 0; right: 0; top: 0; z-index: 5;
-    padding: calc(var(--safe-top) + 10px) 12px 10px;
-    background: var(--ink);
-    display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
-  }
-  .bar::-webkit-scrollbar { display: none; }
-  .chip {
-    flex: none; display: flex; align-items: center; gap: 8px;
-    padding: 9px 14px; border-radius: 999px; border: 2px solid var(--c);
-    background: transparent; color: #fff; font: 600 15px/1 inherit; font-family: inherit;
-  }
-  .chip i { width: 20px; height: 20px; display: grid; place-items: center; font-style: normal; font-size: 17px; line-height: 1; }
-  .chip i img { width: 18px; height: 18px; }
-  .chip[aria-pressed="false"] i { opacity: .55; }
-  .chip[aria-pressed="true"] { background: var(--c); color: var(--t, #fff); }
-  .chip:focus-visible, .fab:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
-
-  .fab {
-    position: fixed; right: 14px; bottom: calc(var(--safe-bottom) + 24px); z-index: 5;
-    width: 52px; height: 52px; border-radius: 50%; border: 0;
-    background: var(--ink); color: #fff; display: grid; place-items: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,.35);
-  }
-  .fab[aria-pressed="true"] { background: #1f6feb; }
-  .fab svg { width: 26px; height: 26px; }
-
-  .info { font: 15px/1.4 -apple-system, "Segoe UI", sans-serif; color: var(--ink); max-width: 230px; }
-  .info h2 { margin: 0 0 2px; font-size: 17px; }
-  .info .cat { color: #5b6a78; margin-bottom: 6px; }
-  .info a {
-    display: inline-block; margin-top: 8px; padding: 9px 14px; border-radius: 8px;
-    background: var(--ink); color: #fff; text-decoration: none; font-weight: 600;
-  }
-
-  .msg {
-    position: fixed; inset: 0; z-index: 10; display: none; place-items: center; padding: 24px;
-    background: var(--ink); color: #fff; text-align: center; line-height: 1.5;
-  }
-  .msg.show { display: grid; }
-  .msg code { background: #24323f; padding: 2px 6px; border-radius: 4px; }
-#splash { position: fixed; inset: 0; z-index: 9; background: #000; display: grid; place-items: center; align-content: center; gap: 28px; transition: opacity .4s; }
-#splash.hide { opacity: 0; pointer-events: none; }
-#splash img { width: min(80vw, 360px); height: auto; }
-.sp-line { width: 120px; height: 6px; border-radius: 3px; background: repeating-linear-gradient(90deg, #f0922b 0 24px, transparent 24px 40px); background-size: 40px 6px; animation: sp-move .8s linear infinite; }
-@keyframes sp-move { to { background-position: 40px 0; } }
-.chip.refresh { --c: #5b6a78; position: sticky; right: 8px; margin-left: auto; padding: 9px 12px; background: var(--ink); box-shadow: -10px 0 10px 4px var(--ink), 10px 0 0 0 var(--ink); }
-.chip.refresh svg { width: 20px; height: 20px; display: block; }
-.info { max-width: 260px; position: relative; }
-.info h2 { padding-right: 30px; }
-.info .note { white-space: pre-line; overflow-wrap: anywhere; }
-.info .note a { display: inline; margin: 0; padding: 0; background: none; border-radius: 0; color: #1f6feb; font-weight: inherit; text-decoration: underline; }
-.info .x { position: absolute; top: 0; right: 0; width: 32px; height: 32px; border: 0; background: none; font-size: 26px; line-height: 1; color: #5b6a78; cursor: pointer; }
-.info .photos { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 6px 0 8px; border-radius: 8px; }
-.info .photos::-webkit-scrollbar { display: none; }
-.info .photos a { flex: 0 0 100%; scroll-snap-align: center; display: block; margin: 0; padding: 0; background: none; border-radius: 0; }
-.info .photos img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; background: #d5dce3; }
-.info .dots { display: flex; justify-content: center; gap: 5px; margin: -2px 0 6px; }
-.info .dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
-.info .dots i.on { background: #14202b; }
-#lightbox { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.94); display: flex; align-items: center; justify-content: center; }
-#lightbox[hidden] { display: none; }
-#lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
-#lightbox .lb-x { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 14px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: rgba(255,255,255,.18); color: #fff; font-size: 32px; line-height: 1; cursor: pointer; }
-.info { box-sizing: border-box; width: min(250px, 58vw); max-width: none; padding: 0 12px 14px 0; }
-.info .photos { width: 100%; }
-.gm-style .gm-style-iw-d { overflow-x: hidden !important; }
-html, body { display: flex; flex-direction: column; overflow: hidden; }
-.bar { order: -1; position: relative !important; top: auto !important; flex: none; }
-#map { position: relative !important; inset: auto !important; flex: 1 1 auto; width: 100%; height: auto !important; min-height: 0; }
-.bar { padding-top: calc(var(--safe-top) + 20px) !important; }
+    :root {
+        --ink: #14202b;
+        --paper: #f4f6f8;
+        --line: #d5dce3;
+        --safe-top: env(safe-area-inset-top, 0px);
+        --safe-bottom: env(safe-area-inset-bottom, 0px);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; background: var(--ink); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; }
+    #map { position: fixed; inset: 0; width: 100%; height: 100%; }
+    
+    .bar {
+        position: fixed; left: 0; right: 0; top: 0; z-index: 5;
+        padding: calc(var(--safe-top) + 10px) 12px 10px;
+        background: var(--ink);
+        display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+    }
+    .bar::-webkit-scrollbar { display: none; }
+    .chip {
+        flex: none; display: flex; align-items: center; gap: 8px;
+        padding: 9px 14px; border-radius: 999px; border: 2px solid var(--c);
+        background: transparent; color: #fff; font: 600 15px/1 inherit; font-family: inherit;
+    }
+    .chip i { width: 20px; height: 20px; display: grid; place-items: center; font-style: normal; font-size: 17px; line-height: 1; }
+    .chip i img { width: 18px; height: 18px; }
+    .chip[aria-pressed="false"] i { opacity: .55; }
+    .chip[aria-pressed="true"] { background: var(--c); color: var(--t, #fff); }
+    .chip:focus-visible, .fab:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+    
+    .fab {
+        position: fixed; right: 14px; bottom: calc(var(--safe-bottom) + 24px); z-index: 5;
+        width: 52px; height: 52px; border-radius: 50%; border: 0;
+        background: var(--ink); color: #fff; display: grid; place-items: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,.35);
+    }
+    .fab[aria-pressed="true"] { background: #1f6feb; }
+    .fab svg { width: 26px; height: 26px; }
+    
+    .info { font: 15px/1.4 -apple-system, "Segoe UI", sans-serif; color: var(--ink); max-width: 230px; }
+    .info h2 { margin: 0 0 2px; font-size: 17px; }
+    .info .cat { color: #5b6a78; margin-bottom: 6px; }
+    .info a {
+        display: inline-block; margin-top: 8px; padding: 9px 14px; border-radius: 8px;
+        background: var(--ink); color: #fff; text-decoration: none; font-weight: 600;
+    }
+    
+    .msg {
+        position: fixed; inset: 0; z-index: 10; display: none; place-items: center; padding: 24px;
+        background: var(--ink); color: #fff; text-align: center; line-height: 1.5;
+    }
+    .msg.show { display: grid; }
+    .msg code { background: #24323f; padding: 2px 6px; border-radius: 4px; }
+    #splash { position: fixed; inset: 0; z-index: 9; background: #000; display: grid; place-items: center; align-content: center; gap: 28px; transition: opacity .4s; }
+    #splash.hide { opacity: 0; pointer-events: none; }
+    #splash img { width: min(80vw, 360px); height: auto; }
+    .sp-line { width: 120px; height: 6px; border-radius: 3px; background: repeating-linear-gradient(90deg, #f0922b 0 24px, transparent 24px 40px); background-size: 40px 6px; animation: sp-move .8s linear infinite; }
+    @keyframes sp-move { to { background-position: 40px 0; } }
+    .chip.refresh { --c: #5b6a78; position: sticky; right: 8px; margin-left: auto; padding: 9px 12px; background: var(--ink); box-shadow: -10px 0 10px 4px var(--ink), 10px 0 0 0 var(--ink); }
+    .chip.refresh svg { width: 20px; height: 20px; display: block; }
+    .info { max-width: 260px; position: relative; }
+    .info h2 { padding-right: 30px; }
+    .info .note { white-space: pre-line; overflow-wrap: anywhere; }
+    .info .note a { display: inline; margin: 0; padding: 0; background: none; border-radius: 0; color: #1f6feb; font-weight: inherit; text-decoration: underline; }
+    .info .x { position: absolute; top: 0; right: 0; width: 32px; height: 32px; border: 0; background: none; font-size: 26px; line-height: 1; color: #5b6a78; cursor: pointer; }
+    .info .photos { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 6px 0 8px; border-radius: 8px; }
+    .info .photos::-webkit-scrollbar { display: none; }
+    .info .photos a { flex: 0 0 100%; scroll-snap-align: center; display: block; margin: 0; padding: 0; background: none; border-radius: 0; }
+    .info .photos img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; background: #d5dce3; }
+    .info .dots { display: flex; justify-content: center; gap: 5px; margin: -2px 0 6px; }
+    .info .dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
+    .info .dots i.on { background: #14202b; }
+    #lightbox { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.94); display: flex; align-items: center; justify-content: center; }
+    #lightbox[hidden] { display: none; }
+    #lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    #lightbox .lb-x { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 14px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: rgba(255,255,255,.18); color: #fff; font-size: 32px; line-height: 1; cursor: pointer; }
+    .info { box-sizing: border-box; width: min(250px, 58vw); max-width: none; padding: 0 12px 14px 0; }
+    .info .photos { width: 100%; }
+    .gm-style .gm-style-iw-d { overflow-x: hidden !important; }
+    html, body { display: flex; flex-direction: column; overflow: hidden; }
+    .bar { order: -1; position: relative !important; top: auto !important; flex: none; }
+    #map { position: relative !important; inset: auto !important; flex: 1 1 auto; width: 100%; height: auto !important; min-height: 0; }
+    .bar { padding-top: calc(var(--safe-top) + 20px) !important; }
+    #splash { background: #fff !important; }
+    #splash img { width: min(72vw, 320px); }
+    .sp-line { display: none; }
 </style>
 </head>
 <body>
-<div id="splash"><img src="icons/icon-512.png" alt="Beat the Street"><div class="sp-line"></div></div>
+<div id="splash"><img src="icons/splash.webp" alt="Beat the Street"><div class="sp-line"></div></div>
 <div id="map"></div>
 <div class="bar" id="filters" role="group" aria-label="Kategorien"></div>
 
@@ -128,7 +131,7 @@ function hideSplash() {
   setTimeout(() => {
     s.classList.add("hide");
     setTimeout(() => s.remove(), 500);
-  }, Math.max(0, 2000 - (Date.now() - splashStart)));
+  }, Math.max(0, 1200 - (Date.now() - splashStart)));
 }
 setTimeout(hideSplash, 10000);
   
