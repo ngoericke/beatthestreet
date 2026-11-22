@@ -5,17 +5,20 @@
     { "name": "A - Wien - EvoBus Austria GmbH", "category": "parkplatz", "lat": 48.07576, "lng": 16.32326, "note": "IZ NÖ-Süd Straße 4 Objekt 18, 2351 Wiener Neudorf\nlegal-at.buses.daimlertruck.com\n+43 57 70100" },
     { "name": "A - Wien - Marx-Halle", "category": "parkplatz", "lat": 48.18622, "lng": 16.40541, "note": "Parkplatz buchen über:\nKatharina Strnad\nEventlocation Management\n+43 1 888 55 25 15\n+43 664 881 758 76 (mobil)\nks@hey-u.com\nwww.marxhalle.at\nHEY Communications & Production GmbH\nKarl-Farkas-Gasse 22 / 5.OG\nA - 1030 Wien\n\nParken m. Strom = 70,- EUR/Day\n\nGate-Code: 0704" },
     { "name": "A - Wien - Parkplatz ÖBB", "category": "parkplatz", "lat": 48.19284, "lng": 16.31958, "note": "Felberstraße 25, 1150 Wien" },
+    
     { "name": "B - Brügge - Busparking", "category": "parkplatz", "lat": 51.19572, "lng": 3.22653, "note": "Bargeweg, 8000 Brugge\nwww.interparking.be" },
     { "name": "B - Brüssel - Boulevard Pachéco", "category": "parkplatz", "lat": 50.85208, "lng": 4.36263, "note": "Boulevard Pachéco 34, 1000 Brüssel\n\nACHTUNG: Kurzzeitplätze und Langzeitplätze beachten!", "image": "fotos/parkplatz/bruessel1.png" },
     { "name": "B - Brüssel - Parking Car plus de 5h", "category": "parkplatz", "lat": 50.85951, "lng": 4.34952, "note": "" },
     { "name": "B - Brüssel Region - Sleeping Truck Saintes", "category": "parkplatz", "lat": 50.70926, "lng": 4.171, "note": "Av. Ernest Solvay 90, 1480 Saintes\n+32 2 390 05 06" },
     { "name": "B - Gent - Starstruck Nightliners", "category": "parkplatz", "lat": 50.8771, "lng": 3.60889, "note": "Herlegem 35, 9700 Oudenaarde\nwww.starstruck.be\n+32 475 91 15 82" },
-    { "name": "CH - Zürich - Bus Station", "category": "parkplatz", "lat": 47.38097, "lng": 8.5373, "note": "Ausstellungsstrasse 15, 8005 Zürich" },
     
+    { "name": "CH - Zürich - Bus Station", "category": "parkplatz", "lat": 47.38097, "lng": 8.5373, "note": "Ausstellungsstrasse 15, 8005 Zürich" },
     { "name": "CH - Zürich - EvoBus (Schweiz) AG", "category": "parkplatz", "lat": 47.50584, "lng": 8.67916, "note": "Wieshofstrasse 120/122, 8408 Winterthur\nlocations.daimlertruck.com\n+41 52 560 56 00" },
     { "name": "CH - Zürich - Hallenstadion Parkplatz", "category": "parkplatz", "lat": 47.41224, "lng": 8.55086, "note": "Gate Code: 2001" },
+    
     { "name": "CZ - Prag - Hotel Hilton", "category": "parkplatz", "lat": 50.09295, "lng": 14.44019, "note": "" },
     { "name": "CZ - Prag - Park di Florence", "category": "parkplatz", "lat": 50.08923, "lng": 14.4373, "note": "" },
+    
     { "name": "D - Berlin - Bilstein Transport", "category": "parkplatz", "lat": 52.29405, "lng": 13.46243, "note": "Parkplatz über WhattsApp buchen:\nChristian Bilstein\n+49 (0)30 80 20 87 770", "image": "fotos/parkplatz/berlinbilstein.png" },
     { "name": "D - Berlin - Campingplatz Krossinsee", "category": "parkplatz", "lat": 52.36995, "lng": 13.68425, "note": "Wernsdorfer Str. 38, 12527 Berlin\nwww.campingplatz-berlin.de/n+49 30 6758687" },
     { "name": "D - Berlin - Fleetwork - Köpenicker Ch. 1", "category": "parkplatz", "lat": 52.49114, "lng": 13.49052, "note": "Liebe Agenturen, Veranstalter, sehr geehrte Damen und Herren,\nwir mussten unsere Abläufe auf dem Hof im Sinne aller ansässigen Unternehmen neu organisieren. Es ist uns nicht weiter möglich mit nur 2 Tourneebusplätzen und einem Anhängerplatz so flexibel wie bisher auf ihre An – und Abreisewünsche zu reagieren.\n\nWas ist neu?\n\nFeste Check In Zeit ab 11.30 Uhr am gebuchten Anreisetag Feste Check Out Zeit bis 11.00 Uhr am Abreisetag Zugangscode für das Einfahrttor und das Sanitärgebäude wird mit der Buchung übersandt (QR Code zu Ausdrucken oder Smartphone Bilschirm) es gibt optional einen festen Anhängerstellplatz - dieser ist zu nutzen und ist so angelegt, dass sie Ihn rückwärst bequem abstellen können Die Position ist dem Lageplan ihrer Buchung zu entnehmen\n\nWichtige Hinweise\n\nes ist unabdingbar, dass ihre Fahrer auf selben Kenntnisstand sind wie sie als buchende Agentur es ist uns personell nicht möglich, jeden ankommenden Fahrer an die Hand zu nehmen und durch einen Prozess zu führen, der sehr klar online beschrieben ist. Die Konsequenz wäre am Ende, dass wir die erhöhten Personalkosten auf die Mietdauer zukünftig umlegen müssten was nicht im Sinne ihrer Kostenkalkulation ist da freie Stellflächen auch den Freizeittcampern zur Verfügung stehen und wir insgesamt auch ein touristischer Spot sind, ist es untersagt den Motor über die gesamte Mietdauer laufen zu lassen, um am optionalen 32 A Stromanschluss zu sparen bitte buchen sie den Mietzeitraum den sie auch benötigen, aufgrund der hohen Nachfrage der Freizeitcamper ist eine Early Check In / Late Check Out in aller Regel nicht möglich." },
@@ -27,6 +30,68 @@
     { "name": "DK - Kopenhagen - Scandic Sydhavnen", "category": "parkplatz", "lat": 55.65521, "lng": 12.54227, "note": "The total price will be 200 dkk to charge the buss for 1 day." },
     { "name": "DK - Kopenhagen - Stokholm Transport A / S", "category": "parkplatz", "lat": 55.7029, "lng": 12.4286, "note": "Sindalvej 10, 2610 Rødovre\nwww.stokholm.com\n+45 43 20 43 20\n\nDoor Code: 2430#" },
     
-    { "name": "IRL - Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" }
+    { "name": "ES - Barcelona - Parking camiones Bellvitge", "category": "parkplatz", "lat": 41.34324, "lng": 2.11, "note": "Camí Pau Redó, 10, 08908 L'Hospitalet de Llobregat, Barcelona\nwww.parkingcamionesbcn.com\n+34 667 01 65 06\n\nParken mit Strom & WC & Dusche\n\nWhatsApp-Nummern:\n+34667016506\n+34617757929\n\ninfo@parkingcamionesbcn.com\nparking2010@hotmail.es" },
+    { "name": "ES - Barcelona - Tres Adanal", "category": "parkplatz", "lat": 41.41336, "lng": 2.2116, "note": "" },
+    { "name": "ES - Getafe - Camping Alpha", "category": "parkplatz", "lat": 40.31716, "lng": -3.68888, "note": "C. Calidad, S/N, 28906 Getafe, Madrid\nwww.campingalpha.com\n+34 916 95 80 69" },
+    { "name": "ES - Madrid - CTM", "category": "parkplatz", "lat": 40.36585, "lng": -3.65616, "note": "" },
+    { "name": "ES - Pamplona - Autohof", "category": "parkplatz", "lat": 42.72964, "lng": -1.61495, "note": "" },
+    { "name": "ES - SanSebastian - mowiz TruckParking", "category": "parkplatz", "lat": 43.28368, "lng": -1.92593, "note": "20115 Astigarraga, Gipuzkoa" },
+    { "name": "ES - Santander - Parkplatz Stadion", "category": "parkplatz", "lat": 43.4774, "lng": -3.79141, "note": "" },
+    { "name": "ES - Sevilla - Logistics Area", "category": "parkplatz", "lat": 37.38554, "lng": -5.9386, "note": "Km. 0 Calle, A-92, 41006 Sevilla\n+34 954 78 70 43" },
+    { "name": "ES - Valencia - Matthias Hager", "category": "parkplatz", "lat": 39.42512, "lng": -0.32113, "note": "Parken bitte unbedingt vorher anmelden!\nParken nur v. April - November möglich.\n\nTel.-Nr. privat Matthias Hager (nur WhatsApp!!!)\n+436502210762" },
+    
+    { "name": "EST - Tallin - Caravan Camping Parking", "category": "parkplatz", "lat": 59.46742, "lng": 24.82436, "note": "Strom is vorhanden, allerdings nur 230V.\n32A soll allerdings auch vorhanden sein! Nachfragen bei: Phil (Fahrer BTS) +49 176 98550708\n\nhttps://park4night.com/de/place/38906" },
+    
+    { "name": "F - Bordeaux - Bordeaux Lac Camping", "category": "parkplatz", "lat": 44.89779, "lng": -0.58276, "note": "Bd Jacques Chaban-Delmas, 33520 Bruges\nwww.camping-bordeaux.com\n+33 5 57 87 70 60" },
+    { "name": "F - Dijon - Camping la chanoie", "category": "parkplatz", "lat": 47.30874, "lng": 5.42554, "note": "46 Rue de la Chanoie, 21270 Pontailler-sur-Saône\nwww.camping-lachanoie.com\n+33 3 80 67 21 98" },
+    { "name": "F - Marseille - Airpor", "category": "parkplatz", "lat": 43.44065, "lng": 5.22536, "note": "" },
+    { "name": "F - Nizza - Parking Ferber Bus", "category": "parkplatz", "lat": 43.67585, "lng": 7.22864, "note": "" },
+    { "name": "F - Paris - Bercy Nähe", "category": "parkplatz", "lat": 48.82751, "lng": 2.39388, "note": "Einfahrt-Adresse: 3 Rue Escoffier, 94220 Charenton-le-Pont" },
+    { "name": "F - Paris - Camping Paris Est", "category": "parkplatz", "lat": 48.82979, "lng": 2.47744, "note": "110 Bd des Alliés, 94500 Champigny-sur-Marne\nwww.campingchampigny.paris\n+33 1 43 97 43 97" },
+    { "name": "F - Toulouse - Centre Routier de Fondeyre (€ Secure truck parking)", "category": "parkplatz", "lat": 43.6447, "lng": 1.42527, "note": "Av. de Fondeyre, 31200 Toulouse\napp.yourtravis.com" },
+    
+    { "name": "I - Genua - Genova Bus Parking", "category": "parkplatz", "lat": 44.41281, "lng": 8.87418, "note": "" },
+    { "name": "I - Mailand - Camping Village", "category": "parkplatz", "lat": 45.47361, "lng": 9.08279, "note": "Via Gaetano Airaghi, 61, 20153 Milano MI\nwww.campingmilano.it\n+39 327 108 6605" },
+    { "name": "I - Rom - Tibur Parking", "category": "parkplatz", "lat": 41.91536, "lng": 12.5643, "note": "Via di Grotta di Gregna, 25 A, 00155 Roma RM\nwww.tiburparking.com\n+39 392 484 0508\n\n50 EUR pro Tag\n32A vorhanden\nWasser, WC" },
+    { "name": "I - Venedig - Camping Fusina", "category": "parkplatz", "lat": 45.41957, "lng": 12.2563, "note": "Via Moranzani, 93, 30176 Venezia VE\nwww.campingfusina.com\n+39 041 547 0055" },
 
+    { "name": "IRL - Dublin City", "category": "parkplatz", "lat": 53.34931, "lng": -6.23743, "note": "Bezahlen über App (NTA Cashless Parking App)\noder\nonline MIT Account: www.nta.parkmagic.net\noder\nonline OHNE Account: www.nta.parkmagic.net und dann auf "park now without logging in" klicken" },
+    { "name": "IRL - Dublin - Topaz Autohof", "category": "parkplatz", "lat": 53.35523, "lng": -6.21336, "note": "" },
+    { "name": "IRL - Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" },
+
+    { "name": "L - Hollerich Luxemburg - FlixBus BusStop", "category": "parkplatz", "lat": 49.59989, "lng": 6.10492, "note": "Parking, 1740 Hollerich Luxembourg" },
+    { "name": "L - Hollerich Luxemburg, Schluechthaus", "category": "parkplatz", "lat": 49.60013, "lng": 6.11687, "note": "1924 Hollerich Schluechthaus" },
+    { "name": "L - Luxemburg - Parc Hotel Alvisse", "category": "parkplatz", "lat": 49.63971, "lng": 6.15408, "note": "120 Rte d'Echternach, 1453 Dommeldange Luxembourg\nwww.parc-hotel.lu\n+352 43 56 43\n\nBei Buchung eines Zimmers ist Parken m. Strom möglich. (Kosten ca. 100,- EUR)" },
+    { "name": "L - Ville-Haute Luxemburg - Av. de la Faiencerie", "category": "parkplatz", "lat": 49.61581, "lng": 6.12197, "note": "" },
+    
+    { "name": "N - Oslo - Vallhall Arena", "category": "parkplatz", "lat": 59.92108, "lng": 10.80687, "note": "Below you find info. where to park your bus./nYou park the bus at the pavement at once you reach the arena. We will mark it with a sign.\nThe power-outlet is just around the corner from where you park.\nAt main entrance you will find WC, wardrobe and a laundry.\n\nCost/invoice details\nThe cost per day/night is NOK 1 125,-.\nI need details where to send invoice and the “production” it should be marked." },
+    
+    { "name": "NL - Amsterdam - Camping Zeeburg Amsterdam", "category": "parkplatz", "lat": 52.36533, "lng": 4.95944, "note": "Zuider IJdijk 20, 1095 KN Amsterdam\nwww.campingzeeburg.nl\n+31 20 694 4430" },
+    { "name": "NL - Amsterdam - P-Risk", "category": "parkplatz", "lat": 52.31702, "lng": 4.94082, "note": "Buchung über:\nArena Control Ziggo-Dome\n+31 900 235 3663" },
+
+    { "name": "P - Lissabon - Bus Park Camarate", "category": "parkplatz", "lat": 38.79351, "lng": -9.13907, "note": "R. das Oliveiras, 2680-001 Camarate\n+351 969 761 960" },
+    
+    { "name": "PL - Warschau - Stadtzentrum", "category": "parkplatz", "lat": 52.23316, "lng": 21.00558, "note": "buchbar über örtlichen Promoter" },
+    
+    { "name": "S - Göteborg - Film Studios", "category": "parkplatz", "lat": 57.7094, "lng": 11.93297, "note": "ADRESSE" },
+    { "name": "S - Malmö - Wohnmobilstellplatz", "category": "parkplatz", "lat": 55.59593, "lng": 12.93287, "note": "Vaktgatan 12, 216 44 Limhamn\nlagunen.nu" },
+    { "name": "S - Stockholm - Mekka Service", "category": "parkplatz", "lat": 59.20289, "lng": 18.12216, "note": "ADRESSE" },
+    
+    { "name": "SCO - Edinburgh - Pringles Coach Park", "category": "parkplatz", "lat": 55.97191, "lng": -3.17994, "note": "70-74 Bangor Rd, Edinburgh EH6 5JU\npringlescoachpark.com\n+44 131 554 1317" },
+    { "name": "SCO - Glasgow - Buchanan Bus Station", "category": "parkplatz", "lat": 55.86479, "lng": -4.24937, "note": "" },
+    { "name": "SCO - Glasgow - Car Park 7", "category": "parkplatz", "lat": 55.86226, "lng": -4.29088, "note": "" },
+    
+    { "name": "SLO - Ljubljana - Ljubljana Resort", "category": "parkplatz", "lat": 46.09765, "lng": 14.51892, "note": "20,- Stellplatz\n45,- Power" },
+    
+    { "name": "UK - Ashford - International Truck Stop", "category": "parkplatz", "lat": 51.1254, "lng": 0.90515, "note": "Waterbrook Park, Unit 14 Arrowhead Rd, Sevington, Ashford TN24 0FL\nwww.ashfordtruckstop.co.uk\n+44 1233 502919" },
+    { "name": "UK - Birmingham - Brewery Street Coach Parking", "category": "parkplatz", "lat": 52.48982, "lng": -1.89371, "note": "Brewery Street Coach and Lorry Parking, Brewery St, Birmingham B6 4JB" },
+    { "name": "NAUK - London - City Circle UK Ltd. Coach HireME", "category": "parkplatz", "lat": 51.50112, "lng": -0.42692, "note": "30 GBP Parken\n20 GBP Buswäsche\n\nWC & Dusche vorhanden. KEIN Strom! (ist noch in Arbeit - Stand 12/2023)\n\nParkplatz per Mail oder Telefon anfragen, da nur bedingt Parkmöglichkeit für "Fremdlinge"." },
+    { "name": "UK - London - Novotel Hammersmith", "category": "parkplatz", "lat": 51.49223, "lng": -0.21977, "note": "" },
+    { "name": "UK - London - O2 Coach Parking", "category": "parkplatz", "lat": 51.49714, "lng": 0.00585, "note": "" },
+    { "name": "UK - London - Sunbelt Film and TV", "category": "parkplatz", "lat": 51.56416, "lng": -0.30304, "note": "East Ln, Wembley HA9 7PR\nfilmandtv.sunbeltrentals.co.uk\n+44 300 373 1200\n\nKontakt über NINO EXNER" },
+    { "name": "UK - London - Zeppelin Nightliners", "category": "parkplatz", "lat": 51.59166, "lng": -0.04235, "note": "Unit 12B Uplands Business Park, Blackhorse Ln, London E17 5QJ\nzeppelinnightliners.com\n+44 7379 124844\n\nKey Box: 2884\nor\nDoor Code: 12123 (warten auf grünes Licht)" },
+    { "name": "UK - Manchester - Hadfields Transport", "category": "parkplatz", "lat": 53.49467, "lng": -2.20837, "note": "Gate-Code: 2012 <enter> (22.06.2024)" },
+    { "name": "UK - Nottingham - Stadion", "category": "parkplatz", "lat": 52.93971, "lng": -1.13111, "note": "" }
+    
+    //{ "name": "NAME", "category": "parkplatz", "lat": LATITUDE, "lng": LONGITUDE, "note": "ADRESSE" },
   ]
