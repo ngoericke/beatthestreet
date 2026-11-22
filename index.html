@@ -308,7 +308,7 @@ const el = new AdvancedMarkerElement({ map, position: { lat: p.lat, lng: p.lng }
     markers.push({ el, cat: p.category });
     bounds.extend(el.position);
   });
-  if (markers.length > 1) map.fitBounds(bounds, { top: 90, right: 40, bottom: 40, left: 40 });
+//  if (markers.length > 1) map.fitBounds(bounds, { top: 90, right: 40, bottom: 40, left: 40 });//
 
   document.getElementById("locate").onclick = toggleLocation;
   const rb = document.createElement("button");
