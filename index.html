@@ -131,7 +131,7 @@ function hideSplash() {
   setTimeout(() => {
     s.classList.add("hide");
     setTimeout(() => s.remove(), 500);
-  }, Math.max(0, 1200 - (Date.now() - splashStart)));
+  }, Math.max(0, 2000 - (Date.now() - splashStart)));
 }
 setTimeout(hideSplash, 10000);
   
