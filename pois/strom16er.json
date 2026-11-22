@@ -1,4 +1,15 @@
 [
-    { "name": "Reisemobilstellplatz Salzburg", "category": "strom 16er", "lat": 47.83614, "lng": 13.05997, "note": "" }
-
+    { "name": "Reisemobilstellplatz Salzburg", "category": "strom 16er", "lat": 47.83614, "lng": 13.05997, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 48.21433, "lng": 16.25014, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 48.13632, "lng": 16.31581, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 55.59579, "lng": 12.93313, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 55.65525, "lng": 12.54233, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 55.70273, "lng": 12.428, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 47.30937, "lng": 5.42616, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 53.49527, "lng": -2.20814, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 53.49482, "lng": -2.20886, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 59.20288, "lng": 18.12241, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 52.31674, "lng": 4.94134, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 53.35537, "lng": -6.21353, "note": "" },
+    { "name": "Power 16er", "category": "strom 16er", "lat": 48.21025, "lng": 16.44614, "note": "" }
   ]
