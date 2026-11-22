@@ -115,7 +115,7 @@
     { "name": "Tauron Arena Kraków", "category": "venues", "lat": 50.0678, "lng": 19.9923, "note": "Stanisława Lema 7, 31-571 Kraków, Polen" },
     { "name": "Atlas Arena", "category": "venues", "lat": 51.7619, "lng": 19.4289, "note": "al. Bandurskiego 7, 94-020 Łódź, Polen" },
     { "name": "PGE Narodowy", "category": "venues", "lat": 52.2395, "lng": 21.0456, "note": "al. Ks. J. Poniatowskiego 1, 03-901 Warszawa, Polen" },
-    { "name": "Klub Stodola Warschau", "category": "venues", "lat": 52.21168003680742, "lng": 21.010215999939483, "note": "Stefana Batorego 10, 02-591 Warszawa", "images": ["fotos/venues/warschaustodola-1.jpg", "fotos/venues/warschaustodola-2.jpg"] }
+    { "name": "Klub Stodola Warschau", "category": "venues", "lat": 52.21168003680742, "lng": 21.010215999939483, "note": "Stefana Batorego 10, 02-591 Warszawa", "images": ["fotos/venues/warschaustodola-1.jpg", "fotos/venues/warschaustodola-2.jpg"] },
 
     { "name": "Estádio do Restelo", "category": "venues", "lat": 38.7027, "lng": -9.2086, "note": "Av. do Restelo, 1400-315 Lisboa, Portugal" },
     { "name": "MEO Arena", "category": "venues", "lat": 38.7685, "lng": -9.0945, "note": "Rossio dos Olivais, 1990-231 Lisboa, Portugal" },
