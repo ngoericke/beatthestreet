@@ -98,10 +98,13 @@
     #splash { background: #000 !important; }
     #splash img { width: min(72vw, 320px); }
     .sp-line { display: none; }
+#splash { gap: 18px !important; }
+#splash .sp-logo { width: min(78vw, 340px); }
+#splash .sp-bus { width: min(72vw, 320px); }
 </style>
 </head>
 <body>
-<div id="splash"><img src="icons/splash-black.webp" alt="Beat the Street"><div class="sp-line"></div></div>
+<div id="splash"><img class="sp-logo" src="icons/logo-text.png" alt="Beat the Street"><img class="sp-bus" src="icons/splash-bus.webp" alt=""><div class="sp-line"></div></div>
 <div id="map"></div>
 <div class="bar" id="filters" role="group" aria-label="Kategorien"></div>
 
