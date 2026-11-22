@@ -26,7 +26,7 @@
     { "name": "D - Dortmund - EvoBus", "category": "parkplatz", "lat": 51.53003, "lng": 7.52965, "note": "" },
     { "name": "D - Hamburg - Wohnmobilplatz Heiligengeistfeld", "category": "parkplatz", "lat": 53.55597, "lng": 9.97234, "note": "Stellplatz: 20,00 EUR\nStrom: 5,00 EUR\n\nPreis pro Tag bis nächsten Tag 10:00 Uhr.\n\nWC & Dusche vorhanden. In den Wintermonaten sind diese nur von 07:00-15:00 Uhr offen.\n\n2 Wochen vor, während und nach dem Volkfest ist der Parkplatz geschlossen!" },
     { "name": "D - Köln - Parkplatz P5 LANXESS Arena", "category": "parkplatz", "lat": 50.93782, "lng": 6.98698, "note": "Guten Tag die Kollegen\nAnbei die Kontaktadresse zum Parken und Strom in der Lanxess Arena Köln für schlappe 30€! exklusive Steuer. Rechnung geht direkt an die Firma.\ni.A. Noah Haase\nEinkauf\nTel +49 221 802 2071\nP5@lanxess-arena.de lanxess-arena.de\nARENA Management GmbH  Willy-Brandt-Platz 3  D- 50679 Köln" },
-    { "name": "D - Ludwigshafen - Wäscherei Topf", "category": "parkplatz", "lat": 49.46577, "lng": 8.41786, "note": "Kontakt:\nAchim Topf‭\n+49 151 11569456‬\na.topf@gmx.net\n\nAnschrift:\nBruchwiesenstraße 19a\nZufahrt über Achtmorgenstraße!!!\n67059 Ludwigshafen" },
+    { "name": "D - Ludwigshafen - Wäscherei Topf", "category": "parkplatz", "lat": 49.46577, "lng": 8.41786, "note": "Kontakt:\nAchim Topf‭\n+49 151 11569456\na.topf@gmx.net\n\nAnschrift:\nBruchwiesenstraße 19a\nZufahrt über Achtmorgenstraße!!!\n67059 Ludwigshafen" },
     { "name": "DK - Kopenhagen - Scandic Sydhavnen", "category": "parkplatz", "lat": 55.65521, "lng": 12.54227, "note": "The total price will be 200 dkk to charge the buss for 1 day." },
     { "name": "DK - Kopenhagen - Stokholm Transport A / S", "category": "parkplatz", "lat": 55.7029, "lng": 12.4286, "note": "Sindalvej 10, 2610 Rødovre\nwww.stokholm.com\n+45 43 20 43 20\n\nDoor Code: 2430#" },
     
@@ -55,7 +55,7 @@
     { "name": "I - Rom - Tibur Parking", "category": "parkplatz", "lat": 41.91536, "lng": 12.5643, "note": "Via di Grotta di Gregna, 25 A, 00155 Roma RM\nwww.tiburparking.com\n+39 392 484 0508\n\n50 EUR pro Tag\n32A vorhanden\nWasser, WC" },
     { "name": "I - Venedig - Camping Fusina", "category": "parkplatz", "lat": 45.41957, "lng": 12.2563, "note": "Via Moranzani, 93, 30176 Venezia VE\nwww.campingfusina.com\n+39 041 547 0055" },
 
-    { "name": "IRL - Dublin City", "category": "parkplatz", "lat": 53.34931, "lng": -6.23743, "note": "Bezahlen über App (NTA Cashless Parking App)\noder\nonline MIT Account: www.nta.parkmagic.net\noder\nonline OHNE Account: www.nta.parkmagic.net und dann auf "park now without logging in" klicken" },
+    { "name": "IRL - Dublin City", "category": "parkplatz", "lat": 53.34931, "lng": -6.23743, "note": "Bezahlen über App (NTA Cashless Parking App)\noder\nonline MIT Account: www.nta.parkmagic.net\noder\nonline OHNE Account: www.nta.parkmagic.net und dann auf PARK NOW WITHOUT LOGGING IN klicken" },
     { "name": "IRL - Dublin - Topaz Autohof", "category": "parkplatz", "lat": 53.35523, "lng": -6.21336, "note": "" },
     { "name": "IRL - Dublin - Eirespan Limited", "category": "parkplatz", "lat": 53.35571, "lng": -6.2213, "note": "Gate-Code 1970" },
 
@@ -93,4 +93,5 @@
     { "name": "UK - Manchester - Hadfields Transport", "category": "parkplatz", "lat": 53.49467, "lng": -2.20837, "note": "Gate-Code: 2012 <enter> (22.06.2024)" },
     { "name": "UK - Nottingham - Stadion", "category": "parkplatz", "lat": 52.93971, "lng": -1.13111, "note": "" }
     
+    //{ "name": "NAME", "category": "parkplatz", "lat": LATITUDE, "lng": LONGITUDE, "note": "ADRESSE" },
   ]
