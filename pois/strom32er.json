@@ -1,5 +1,23 @@
 [
     { "name": "Nottingham Stadion 32er", "category": "strom 32er", "lat": 52.93962, "lng": -1.13113, "note": "" },
-    { "name": "Campingplatz Mailand", "category": "strom 32er", "lat": 45.473, "lng": 9.08527, "note": "" }
-
+    { "name": "Campingplatz Mailand", "category": "strom 32er", "lat": 45.473, "lng": 9.08527, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 55.86475, "lng": -4.24921, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 51.59165, "lng": -0.04227, "note": "" },
+    { "name": "O2 Coach Park", "category": "strom 32er", "lat": 51.49776, "lng": 0.00615, "note": "3x 32A" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 55.86148, "lng": -4.29186, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 53.35589, "lng": -6.22128, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 41.41342, "lng": 2.21151, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 50.09302, "lng": 14.44027, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 51.52992, "lng": 7.52957, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 50.93811, "lng": 6.9876, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 49.46574, "lng": 8.41822, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 48.21039, "lng": 16.44583, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 43.28305, "lng": -1.92215, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 52.49132, "lng": 13.49024, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 52.23321, "lng": 21.00562, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 49.6002, "lng": 6.10474, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 48.18645, "lng": 16.4057, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 48.18492, "lng": 15.79797, "note": "" },
+    { "name": "Power 32er", "category": "strom 32er", "lat": 51.45412, "lng": -2.60005, "note": "Code: 667" },
+    
   ]
