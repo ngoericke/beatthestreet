@@ -93,5 +93,4 @@
     { "name": "UK - Manchester - Hadfields Transport", "category": "parkplatz", "lat": 53.49467, "lng": -2.20837, "note": "Gate-Code: 2012 <enter> (22.06.2024)" },
     { "name": "UK - Nottingham - Stadion", "category": "parkplatz", "lat": 52.93971, "lng": -1.13111, "note": "" }
     
-    //{ "name": "NAME", "category": "parkplatz", "lat": LATITUDE, "lng": LONGITUDE, "note": "ADRESSE" },
   ]
