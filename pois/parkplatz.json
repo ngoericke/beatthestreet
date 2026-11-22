@@ -73,9 +73,9 @@
     
     { "name": "PL - Warschau - Stadtzentrum", "category": "parkplatz", "lat": 52.23316, "lng": 21.00558, "note": "buchbar über örtlichen Promoter" },
     
-    { "name": "S - Göteborg - Film Studios", "category": "parkplatz", "lat": 57.7094, "lng": 11.93297, "note": "ADRESSE" },
+    { "name": "S - Göteborg - Film Studios", "category": "parkplatz", "lat": 57.7094, "lng": 11.93297, "note": "" },
     { "name": "S - Malmö - Wohnmobilstellplatz", "category": "parkplatz", "lat": 55.59593, "lng": 12.93287, "note": "Vaktgatan 12, 216 44 Limhamn\nlagunen.nu" },
-    { "name": "S - Stockholm - Mekka Service", "category": "parkplatz", "lat": 59.20289, "lng": 18.12216, "note": "ADRESSE" },
+    { "name": "S - Stockholm - Mekka Service", "category": "parkplatz", "lat": 59.20289, "lng": 18.12216, "note": "" },
     
     { "name": "SCO - Edinburgh - Pringles Coach Park", "category": "parkplatz", "lat": 55.97191, "lng": -3.17994, "note": "70-74 Bangor Rd, Edinburgh EH6 5JU\npringlescoachpark.com\n+44 131 554 1317" },
     { "name": "SCO - Glasgow - Buchanan Bus Station", "category": "parkplatz", "lat": 55.86479, "lng": -4.24937, "note": "" },
@@ -85,7 +85,7 @@
     
     { "name": "UK - Ashford - International Truck Stop", "category": "parkplatz", "lat": 51.1254, "lng": 0.90515, "note": "Waterbrook Park, Unit 14 Arrowhead Rd, Sevington, Ashford TN24 0FL\nwww.ashfordtruckstop.co.uk\n+44 1233 502919" },
     { "name": "UK - Birmingham - Brewery Street Coach Parking", "category": "parkplatz", "lat": 52.48982, "lng": -1.89371, "note": "Brewery Street Coach and Lorry Parking, Brewery St, Birmingham B6 4JB" },
-    { "name": "NAUK - London - City Circle UK Ltd. Coach HireME", "category": "parkplatz", "lat": 51.50112, "lng": -0.42692, "note": "30 GBP Parken\n20 GBP Buswäsche\n\nWC & Dusche vorhanden. KEIN Strom! (ist noch in Arbeit - Stand 12/2023)\n\nParkplatz per Mail oder Telefon anfragen, da nur bedingt Parkmöglichkeit für "Fremdlinge"." },
+    { "name": "NAUK - London - City Circle UK Ltd. Coach HireME", "category": "parkplatz", "lat": 51.50112, "lng": -0.42692, "note": "30 GBP Parken\n20 GBP Buswäsche\n\nWC & Dusche vorhanden. KEIN Strom! (ist noch in Arbeit - Stand 12/2023)\n\nParkplatz per Mail oder Telefon anfragen, da nur bedingt Parkmöglichkeit für Fremdlinge." },
     { "name": "UK - London - Novotel Hammersmith", "category": "parkplatz", "lat": 51.49223, "lng": -0.21977, "note": "" },
     { "name": "UK - London - O2 Coach Parking", "category": "parkplatz", "lat": 51.49714, "lng": 0.00585, "note": "" },
     { "name": "UK - London - Sunbelt Film and TV", "category": "parkplatz", "lat": 51.56416, "lng": -0.30304, "note": "East Ln, Wembley HA9 7PR\nfilmandtv.sunbeltrentals.co.uk\n+44 300 373 1200\n\nKontakt über NINO EXNER" },
