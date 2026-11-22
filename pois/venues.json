@@ -39,7 +39,7 @@
     { "name": "RheinEnergieSTADION", "category": "venues", "lat": 50.9335, "lng": 6.875, "note": "Aachener Str. 999, 50933 Köln, Deutschland" },
     { "name": "Palladium", "category": "venues", "lat": 50.9725, "lng": 7.017, "note": "Schanzenstraße 40, 51063 Köln, Deutschland" },
     { "name": "E-Werk", "category": "venues", "lat": 50.969, "lng": 7.012, "note": "Schanzenstraße 37, 51063 Köln, Deutschland" },
-    { "name": "Lanxess Arena", "category": "venues", "lat": 50.9385, "lng": 6.9988, "note": "Willy-Brandt-Platz 3, 50679 Köln, Deutschland" },
+    { "name": "Lanxess Arena", "category": "venues", "lat": 50.93831792946819, "lng": 6.982938874255033, "note": "Willy-Brandt-Platz 3, 50679 Köln, Deutschland" },
     { "name": "QUARTERBACK Immobilien ARENA", "category": "venues", "lat": 51.3454, "lng": 12.348, "note": "Am Sportforum 3, 04105 Leipzig, Deutschland" },
     { "name": "Red Bull Arena", "category": "venues", "lat": 51.3458, "lng": 12.3483, "note": "Am Sportforum 3, 04105 Leipzig, Deutschland" },
     { "name": "GETEC-Arena", "category": "venues", "lat": 52.12815599897616, "lng": 11.666719093884437, "note": "Magdeburg, Deutschland" },
