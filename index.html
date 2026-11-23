@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-transculent">
 <meta name="apple-mobile-web-app-title" content="Beat the Street">
 <meta name="theme-color" content="#14202b">
 <link rel="manifest" href="manifest.json">
@@ -101,6 +101,23 @@
 #splash { gap: 50px !important; }
 #splash .sp-logo { width: min(78vw, 340px); }
 #splash .sp-bus { width: min(72vw, 320px); }
+
+#contact { position: fixed; inset: 0; z-index: 15; background: rgba(0,0,0,.6); display: flex; align-items: flex-end; justify-content: center; }
+#contact[hidden], #pickHint[hidden] { display: none; }
+.cf-card { position: relative; width: 100%; max-width: 440px; max-height: 92%; overflow-y: auto; background: #fff; color: var(--ink); border-radius: 16px 16px 0 0; padding: 20px 18px calc(var(--safe-bottom) + 18px); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; }
+@media (min-width: 600px) { #contact { align-items: center; } .cf-card { border-radius: 16px; } }
+.cf-card h2 { margin: 0 40px 12px 0; font-size: 19px; }
+.cf-card label { display: block; margin: 0 0 12px; font-size: 13px; font-weight: 600; color: #5b6a78; }
+.cf-card input, .cf-card select, .cf-card textarea { display: block; width: 100%; margin-top: 4px; padding: 11px 12px; border: 1px solid var(--line); border-radius: 10px; font-size: 16px; line-height: 1.3; font-family: inherit; color: var(--ink); background: #fff; }
+.cf-row { display: flex; gap: 8px; margin: -4px 0 12px; }
+.cf-row button { flex: 1; padding: 10px; border: 1px solid var(--ink); border-radius: 10px; background: #fff; color: var(--ink); font-size: 14px; font-weight: 600; font-family: inherit; }
+.cf-send { width: 100%; padding: 14px; border: 0; border-radius: 10px; background: var(--ink); color: #fff; font-size: 16px; font-weight: 600; font-family: inherit; }
+.cf-x { position: absolute; top: 8px; right: 8px; width: 40px; height: 40px; border: 0; background: none; font-size: 30px; line-height: 1; color: #5b6a78; }
+.cf-err { margin: 0 0 10px; color: #c43535; font-size: 14px; }
+.cf-err:empty { display: none; }
+.cf-hint { margin: 10px 0 0; font-size: 13px; color: #5b6a78; }
+#pickHint { position: fixed; left: 12px; right: 12px; bottom: calc(var(--safe-bottom) + 90px); z-index: 15; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-radius: 12px; background: var(--ink); color: #fff; font-size: 15px; box-shadow: 0 2px 10px rgba(0,0,0,.4); }
+#pickHint button { border: 1px solid #fff; background: none; color: #fff; border-radius: 8px; padding: 8px 12px; font-size: 14px; font-weight: 600; font-family: inherit; }
 </style>
 </head>
 <body>
@@ -115,6 +132,25 @@
 </button>
 
 <div id="lightbox" hidden><button class="lb-x" aria-label="Foto schließen">×</button><img id="lbImg" alt=""></div>  
+<div id="contact" hidden>
+  <div class="cf-card" role="dialog" aria-modal="true" aria-labelledby="cf-title">
+    <button class="cf-x" id="cf-close" type="button" aria-label="Schließen">×</button>
+    <h2 id="cf-title">Neuen Ort melden</h2>
+    <label>Kategorie<select id="cf-cat"></select></label>
+    <label>Name<input id="cf-name" type="text" autocomplete="off" placeholder="z. B. Betriebshof Nord"></label>
+    <label>Adresse und Hinweise<textarea id="cf-note" rows="3" placeholder="Adresse, Telefon, Öffnungszeiten, Besonderheiten"></textarea></label>
+    <label>Koordinaten<input id="cf-coords" type="text" autocomplete="off" placeholder="52.5069, 9.4631"></label>
+    <div class="cf-row">
+      <button type="button" id="cf-here">Mein Standort</button>
+      <button type="button" id="cf-pick">Auf Karte tippen</button>
+    </div>
+    <label>Dein Name<input id="cf-from" type="text" autocomplete="name"></label>
+    <p class="cf-err" id="cf-err" role="alert"></p>
+    <button type="button" class="cf-send" id="cf-send">Mail vorbereiten</button>
+    <p class="cf-hint">Es öffnet sich dein Mailprogramm mit fertigem Text. Fotos kannst du dort als Anhang hinzufügen.</p>
+  </div>
+</div>
+<div id="pickHint" hidden><span>Tippe auf die gewünschte Stelle in der Karte</span><button type="button" id="pickCancel">Abbrechen</button></div>
 <div class="msg" id="error"><div id="errorText"></div></div>
 
 <script>
@@ -122,6 +158,7 @@
 const API_KEY   = "AIzaSyDSYDkgKG_ki-3Ro9htJ-O0E4D2xaOcGNA";
 const START     = { lat: 52.5, lng: 9.4 }; // Kartenmitte beim Start
 const START_ZOOM = 6;
+const CONTACT_EMAIL = "n.goericke@gmail.com"; // Empfänger der Meldungen
 /* =========================== */
 
 if ("serviceWorker" in navigator) {
@@ -188,6 +225,78 @@ document.getElementById("lightbox").addEventListener("click", e => {
   if (e.target.id !== "lbImg") closeLightbox();
 });
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeLightbox(); });  
+let sentOnce = false;
+function openContact() {
+  const sel = document.getElementById("cf-cat");
+  if (!sel.options.length) {
+    Object.values(data.categories).forEach(c => sel.add(new Option(c.label, c.label)));
+    sel.add(new Option("Andere / neue Kategorie", "Andere / neue Kategorie"));
+  }
+  if (sentOnce) {
+    ["cf-name", "cf-note", "cf-coords"].forEach(id => document.getElementById(id).value = "");
+    sentOnce = false;
+  }
+  document.getElementById("cf-err").textContent = "";
+  document.getElementById("contact").hidden = false;
+}
+function closeContact() { document.getElementById("contact").hidden = true; }
+function useHere() {
+  const err = document.getElementById("cf-err");
+  if (!navigator.geolocation) { err.textContent = "Standort wird auf diesem Gerät nicht unterstützt."; return; }
+  err.textContent = "Standort wird ermittelt …";
+  navigator.geolocation.getCurrentPosition(pos => {
+    document.getElementById("cf-coords").value = pos.coords.latitude.toFixed(5) + ", " + pos.coords.longitude.toFixed(5);
+    err.textContent = "";
+  }, () => {
+    err.textContent = "Standort nicht verfügbar. Bitte Koordinaten eintragen oder auf der Karte antippen.";
+  }, { enableHighAccuracy: true, timeout: 10000 });
+}
+function pickOnMap() {
+  const dlg = document.getElementById("contact");
+  const hint = document.getElementById("pickHint");
+  dlg.hidden = true;
+  hint.hidden = false;
+  const done = () => { hint.hidden = true; dlg.hidden = false; };
+  const l = map.addListener("click", e => {
+    l.remove();
+    document.getElementById("cf-coords").value = e.latLng.lat().toFixed(5) + ", " + e.latLng.lng().toFixed(5);
+    done();
+  });
+  document.getElementById("pickCancel").onclick = () => { l.remove(); done(); };
+}
+function sendContact() {
+  const v = id => document.getElementById(id).value.trim();
+  const err = document.getElementById("cf-err");
+  const name = v("cf-name");
+  const nums = (v("cf-coords").match(/-?\d+(?:[.,]\d+)?/g) || []).map(s => parseFloat(s.replace(",", ".")));
+  if (!name) { err.textContent = "Bitte einen Namen für den Ort eintragen."; return; }
+  if (nums.length !== 2 || Math.abs(nums[0]) > 90 || Math.abs(nums[1]) > 180) {
+    err.textContent = "Bitte Koordinaten im Format 52.5069, 9.4631 eintragen oder auf der Karte antippen.";
+    return;
+  }
+  const lat = +nums[0].toFixed(5), lng = +nums[1].toFixed(5);
+  const note = v("cf-note"), cat = v("cf-cat"), from = v("cf-from");
+  const body = [
+    "Neuer Ort für die Beat the Street-Map", "",
+    "Kategorie: " + cat,
+    "Name: " + name,
+    note ? "Adresse / Hinweise:\n" + note : null,
+    "Koordinaten: " + lat + ", " + lng,
+    "Karte: https://www.google.com/maps?q=" + lat + "," + lng,
+    from ? "Von: " + from : null, "",
+    "Zum Einfügen in die POI-Datei:",
+    '{ "name": ' + JSON.stringify(name) + ', "lat": ' + lat + ', "lng": ' + lng + (note ? ', "note": ' + JSON.stringify(note) : "") + " }", "",
+    "(Fotos bitte als Anhang an diese Mail hängen.)"
+  ].filter(l => l !== null).join("\n");
+  err.textContent = "";
+  sentOnce = true;
+  location.href = "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent("Neuer Ort: " + name) + "&body=" + encodeURIComponent(body);
+}
+document.getElementById("cf-close").onclick = closeContact;
+document.getElementById("cf-here").onclick = useHere;
+document.getElementById("cf-pick").onclick = pickOnMap;
+document.getElementById("cf-send").onclick = sendContact;
+document.getElementById("contact").addEventListener("click", e => { if (e.target.id === "contact") closeContact(); });
 async function initMap() {
   const { Map, InfoWindow } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
@@ -322,6 +431,14 @@ rb.className = "chip refresh";
 rb.setAttribute("aria-label", "Seite neu laden");
 rb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>';
 rb.onclick = () => location.reload();
+const cb = document.createElement("button");
+cb.className = "chip";
+cb.style.setProperty("--c", "#8a97a4");
+const ci = document.createElement("i");
+ci.textContent = "➕";
+cb.append(ci, "Neuer Ort");
+cb.onclick = openContact;
+document.getElementById("filters").appendChild(cb);
 document.getElementById("filters").appendChild(rb);
   google.maps.event.addListenerOnce(map, "idle", hideSplash);
 }
