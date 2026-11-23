@@ -26,7 +26,7 @@
     { "name": "UK - London - Zeppelin Nightliner", "category": "wasser", "lat": 51.59163, "lng": -0.04238, "note": "" },
     { "name": "UK - A1(M) - Exelby Coneygarth", "category": "wasser", "lat": 54.31202, "lng": -1.56904, "note": "" },
     { "name": "UK - London - Novotel Parking", "category": "wasser", "lat": 51.49217, "lng": -0.22008, "note": "neben dem Hotel-Eingang auf Parkebene" },
-    { "name": "UK - M1 - FR Nord - BP Toddington", "category": "wasser", "lat": 51.94781, "lng": -0.50481, "note": "" },
+    { "name": "UK - M1 - FR Nord - BP Toddington", "category": "wasser", "lat": 51.947844167038504, "lng": -0.504521954666582, "note": "", "image": "fotos/wasser/wassertoddington.png" },
     { "name": "UK - M5 - FR Nord - BP Frankley", "category": "wasser", "lat": 52.42987, "lng": -2.01891, "note": "" },
     { "name": "UK - M6 - Exelby Services - Golden Fleece", "category": "wasser", "lat": 54.85734, "lng": -2.87557, "note": "" },
     { "name": "UK - M6 - FR Nord - BP Knutsford", "category": "wasser", "lat": 53.30151, "lng": -2.40274, "note": "" },
