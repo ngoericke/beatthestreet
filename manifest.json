@@ -1,6 +1,6 @@
 {
-  "name": "Beat the Street",
-  "short_name": "Beat the Street",
+  "name": "Beat the Street-Map",
+  "short_name": "BtS-Map",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
