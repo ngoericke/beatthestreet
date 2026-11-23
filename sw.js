@@ -1,4 +1,4 @@
-const CACHE = "betriebskarte-v1";
+const CACHE = "Beath the Street-v1";
 const SHELL = ["./", "./index.html", "./manifest.json", "./pois.json", "./icons/icon-192.png"];
 
 self.addEventListener("install", e => {
