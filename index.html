@@ -51,14 +51,6 @@
     .fab[aria-pressed="true"] { background: #1f6feb; }
     .fab svg { width: 26px; height: 26px; }
     
-    .info { font: 15px/1.4 -apple-system, "Segoe UI", sans-serif; color: var(--ink); max-width: 230px; }
-    .info h2 { margin: 0 0 2px; font-size: 17px; }
-    .info .cat { color: #5b6a78; margin-bottom: 6px; }
-    .info a {
-        display: inline-block; margin-top: 8px; padding: 9px 14px; border-radius: 8px;
-        background: var(--ink); color: #fff; text-decoration: none; font-weight: 600;
-    }
-    
     .msg {
         position: fixed; inset: 0; z-index: 10; display: none; place-items: center; padding: 24px;
         background: var(--ink); color: #fff; text-align: center; line-height: 1.5;
@@ -72,25 +64,10 @@
     @keyframes sp-move { to { background-position: 40px 0; } }
     .chip.refresh { --c: #5b6a78; position: sticky; right: 8px; margin-left: auto; padding: 9px 12px; background: var(--ink); box-shadow: -10px 0 10px 4px var(--ink), 10px 0 0 0 var(--ink); }
     .chip.refresh svg { width: 20px; height: 20px; display: block; }
-    .info { max-width: 260px; position: relative; }
-    .info h2 { padding-right: 30px; }
-    .info .note { white-space: pre-line; overflow-wrap: anywhere; }
-    .info .note a { display: inline; margin: 0; padding: 0; background: none; border-radius: 0; color: #1f6feb; font-weight: inherit; text-decoration: underline; }
-    .info .x { position: absolute; top: 0; right: 0; width: 32px; height: 32px; border: 0; background: none; font-size: 26px; line-height: 1; color: #5b6a78; cursor: pointer; }
-    .info .photos { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 6px 0 8px; border-radius: 8px; }
-    .info .photos::-webkit-scrollbar { display: none; }
-    .info .photos a { flex: 0 0 100%; scroll-snap-align: center; display: block; margin: 0; padding: 0; background: none; border-radius: 0; }
-    .info .photos img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; background: #d5dce3; }
-    .info .dots { display: flex; justify-content: center; gap: 5px; margin: -2px 0 6px; }
-    .info .dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
-    .info .dots i.on { background: #14202b; }
     #lightbox { position: fixed; inset: 0; z-index: 20; background: rgba(0,0,0,.94); display: flex; align-items: center; justify-content: center; }
     #lightbox[hidden] { display: none; }
     #lightbox img { max-width: 100%; max-height: 100%; object-fit: contain; }
     #lightbox .lb-x { position: absolute; top: calc(env(safe-area-inset-top, 0px) + 12px); right: 14px; width: 48px; height: 48px; border: 0; border-radius: 50%; background: rgba(255,255,255,.18); color: #fff; font-size: 32px; line-height: 1; cursor: pointer; }
-    .info { box-sizing: border-box; width: min(250px, 58vw); max-width: none; padding: 0 12px 14px 0; }
-    .info .photos { width: 100%; }
-    .gm-style .gm-style-iw-d { overflow-x: hidden !important; }
     html, body { display: flex; flex-direction: column; overflow: hidden; }
     .bar { order: -1; position: relative !important; top: auto !important; flex: none; }
     #map { position: relative !important; inset: auto !important; flex: 1 1 auto; width: 100%; height: auto !important; min-height: 0; }
@@ -118,6 +95,38 @@
 .cf-hint { margin: 10px 0 0; font-size: 13px; color: #5b6a78; }
 #pickHint { position: fixed; left: 12px; right: 12px; bottom: calc(var(--safe-bottom) + 90px); z-index: 15; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 14px; border-radius: 12px; background: var(--ink); color: #fff; font-size: 15px; box-shadow: 0 2px 10px rgba(0,0,0,.4); }
 #pickHint button { border: 1px solid #fff; background: none; color: #fff; border-radius: 8px; padding: 8px 12px; font-size: 14px; font-weight: 600; font-family: inherit; }
+
+/* ===== Detail-Sheet ===== */
+#sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 7; margin: 0 auto; max-width: 560px; max-height: 66%; display: flex; flex-direction: column; background: #fff; color: var(--ink); border-radius: 20px 20px 0 0; box-shadow: 0 -4px 24px rgba(0,0,0,.35); font-family: -apple-system, "Segoe UI", Roboto, sans-serif; transform: translateY(110%); visibility: hidden; transition: transform .28s cubic-bezier(.2,.8,.2,1), visibility 0s .28s; }
+#sheet.open { transform: none; visibility: visible; transition: transform .28s cubic-bezier(.2,.8,.2,1); }
+.sh-grab { flex: none; padding: 10px 0 4px; display: grid; place-items: center; touch-action: none; }
+.sh-grab i { width: 40px; height: 5px; border-radius: 3px; background: #cbd3db; }
+.sh-x { position: absolute; top: 8px; right: 8px; width: 44px; height: 44px; border: 0; border-radius: 50%; background: none; color: #5b6a78; font-size: 30px; line-height: 1; cursor: pointer; }
+.sh-body { overflow-y: auto; overscroll-behavior: contain; padding: 0 18px calc(var(--safe-bottom) + 20px); }
+.sh-head { padding-right: 40px; }
+.sh-head h2 { margin: 2px 0 0; font-size: 22px; line-height: 1.2; }
+.sh-cat { display: inline-flex; align-items: center; gap: 7px; margin-top: 8px; padding: 4px 11px 4px 7px; border-radius: 999px; background: #eef2f5; color: #3d4b58; font-size: 13px; font-weight: 600; }
+.sh-cat i { width: 12px; height: 12px; border-radius: 50%; background: var(--c); }
+.sh-photos { display: flex; gap: 6px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; margin: 14px 0 0; border-radius: 14px; }
+.sh-photos::-webkit-scrollbar { display: none; }
+.sh-photos a { flex: 0 0 100%; scroll-snap-align: center; display: block; }
+.sh-photos img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 14px; background: #d5dce3; }
+.sh-dots { display: flex; justify-content: center; gap: 5px; margin: 8px 0 0; }
+.sh-dots i { width: 6px; height: 6px; border-radius: 50%; background: #c3ccd5; }
+.sh-dots i.on { background: var(--ink); }
+.sh-note { margin: 14px 0 0; font-size: 16px; line-height: 1.45; white-space: pre-line; overflow-wrap: anywhere; }
+.sh-note a { color: #1f6feb; text-decoration: underline; }
+.sh-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.sh-actions a { flex: 1 1 0; min-width: 110px; display: grid; place-items: center; padding: 13px 12px; border: 2px solid var(--ink); border-radius: 12px; color: var(--ink); font-size: 16px; font-weight: 600; text-decoration: none; }
+.sh-actions a.primary { flex-basis: 100%; background: var(--ink); color: #fff; }
+.sh-x:focus-visible, .sh-actions a:focus-visible { outline: 3px solid #1f6feb; outline-offset: 2px; }
+.fab { transition: transform .28s cubic-bezier(.2,.8,.2,1); }
+body.sheet-open .fab { transform: translateY(calc(var(--sheet-h, 0px) * -1)); }
+.pin { transition: transform .15s; transform-origin: 50% 100%; }
+.pin.sel { transform: scale(1.3); }
+.cluster { width: var(--s, 50px); height: var(--s, 50px); border-radius: 50%; display: grid; place-items: center; background: var(--ring, #8a97a4); box-shadow: 0 3px 10px rgba(0,0,0,.45); cursor: pointer; }
+.cluster b { width: calc(100% - 7px); height: calc(100% - 7px); border-radius: 50%; display: grid; place-items: center; background: #fff; color: #000; font: 600 16px/1 -apple-system, "Segoe UI", Roboto, sans-serif; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+@media (prefers-reduced-motion: reduce) { #sheet, #sheet.open, .fab, .pin { transition: none !important; } }
 </style>
 </head>
 <body>
@@ -131,6 +140,11 @@
   </svg>
 </button>
 
+<div id="sheet" role="dialog" aria-labelledby="sh-title">
+  <div class="sh-grab" id="sh-grab"><i></i></div>
+  <button class="sh-x" id="sh-x" type="button" aria-label="Schließen">×</button>
+  <div class="sh-body" id="sh-body"></div>
+</div>
 <div id="lightbox" hidden><button class="lb-x" aria-label="Foto schließen">×</button><img id="lbImg" alt=""></div>  
 <div id="contact" hidden>
   <div class="cf-card" role="dialog" aria-modal="true" aria-labelledby="cf-title">
@@ -158,7 +172,7 @@
 const API_KEY   = "AIzaSyDSYDkgKG_ki-3Ro9htJ-O0E4D2xaOcGNA";
 const START     = { lat: 52.5, lng: 9.4 }; // Kartenmitte beim Start
 const START_ZOOM = 6;
-const CONTACT_EMAIL = "n.goericke@gmail.com"; // Empfänger der Meldungen
+const CONTACT_EMAIL = "deine.adresse@beispiel.de"; // Empfänger der Meldungen
 /* =========================== */
 
 if ("serviceWorker" in navigator) {
@@ -193,9 +207,9 @@ function showError(html) {
   document.head.appendChild(s);
 })();
 
-let map, infoWindow, data, markers = [], active = new Set(), watchId = null, meMarker = null;
+let map, data, markers = [], clusterer = null, selected = null, active = new Set(), watchId = null, meMarker = null;
 function linkify(el, text) {
-  const re = /([\w.+-]+@[\w-]+(?:\.[\w-]+)+)|((?:https?:\/\/|www\.)[^\s<]+|[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|at|de|ch|eu|org|net|info|it|hu|cz|sk|si|hr)\b(?:\/[^\s<]*)?)|((?:\+|0)\d[\d\s\/().-]{6,}\d)/gi;
+  const re = /([\w.+-]+@[\w-]+(?:\.[\w-]+)+)|((?:https?:\/\/|www\.)[^\s<]+|[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:com|at|de|ch|eu|org|net|info|it|hu|cz|sk|si|hr|pl|nl|be|fr|es|pt|dk|se|no|fi|uk|ie|ro|bg|gr|lt|lv|ee|rs|ba|ua|tr|lu|li)\b(?:\/[^\s<]*)?)|((?:\+|0)\d[\d\s\/().-]{6,}\d)/gi;
   let last = 0, m;
   while ((m = re.exec(text))) {
     let hit = m[0];
@@ -297,9 +311,142 @@ document.getElementById("cf-here").onclick = useHere;
 document.getElementById("cf-pick").onclick = pickOnMap;
 document.getElementById("cf-send").onclick = sendContact;
 document.getElementById("contact").addEventListener("click", e => { if (e.target.id === "contact") closeContact(); });
+const clustererReady = new Promise(res => {
+  const s = document.createElement("script");
+  s.src = "https://cdn.jsdelivr.net/npm/@googlemaps/markerclusterer@2.5.3/dist/index.min.js";
+  s.onload = s.onerror = () => res();
+  document.head.appendChild(s);
+});
+function refreshMarkers() {
+  const vis = markers.filter(m => active.has(m.cat)).map(m => m.el);
+  if (clusterer) { clusterer.clearMarkers(); clusterer.addMarkers(vis); }
+  else markers.forEach(m => { m.el.map = active.has(m.cat) ? map : null; });
+}
+function offsetCenter(pos, dy) {
+  const scale = 256 * Math.pow(2, map.getZoom());
+  const sin = Math.sin(pos.lat * Math.PI / 180);
+  const x = (pos.lng + 180) / 360 * scale;
+  const y = (0.5 - Math.log((1 + sin) / (1 - sin)) / (4 * Math.PI)) * scale + dy;
+  const n = Math.PI - 2 * Math.PI * y / scale;
+  return { lat: 180 / Math.PI * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n))), lng: x / scale * 360 - 180 };
+}
+function buildPhotos(p) {
+  const imgs = [].concat(p.images || p.image || []).filter(Boolean);
+  if (!imgs.length) return [];
+  const strip = document.createElement("div");
+  strip.className = "sh-photos";
+  imgs.forEach(src => {
+    const a = document.createElement("a");
+    a.href = src;
+    a.onclick = e => { e.preventDefault(); openLightbox(src); };
+    const img = document.createElement("img");
+    img.alt = p.name;
+    img.loading = "lazy";
+    img.src = src;
+    img.onerror = () => a.remove();
+    a.appendChild(img);
+    strip.appendChild(a);
+  });
+  const out = [strip];
+  if (imgs.length > 1) {
+    const dots = document.createElement("div");
+    dots.className = "sh-dots";
+    imgs.forEach((_, i) => { const d = document.createElement("i"); if (i === 0) d.className = "on"; dots.appendChild(d); });
+    strip.addEventListener("scroll", () => {
+      const i = Math.round(strip.scrollLeft / strip.clientWidth);
+      [...dots.children].forEach((d, k) => d.classList.toggle("on", k === i));
+    });
+    out.push(dots);
+  }
+  return out;
+}
+function openSheet(p, cat, pin) {
+  const sheet = document.getElementById("sheet");
+  const body = document.getElementById("sh-body");
+  if (selected) selected.classList.remove("sel");
+  selected = pin;
+  pin.classList.add("sel");
+  body.textContent = "";
+
+  const head = document.createElement("div");
+  head.className = "sh-head";
+  const h = document.createElement("h2");
+  h.id = "sh-title";
+  h.textContent = p.name;
+  const badge = document.createElement("span");
+  badge.className = "sh-cat";
+  badge.style.setProperty("--c", cat.color);
+  badge.append(document.createElement("i"), cat.label);
+  head.append(h, badge);
+  body.append(head, ...buildPhotos(p));
+
+  const note = document.createElement("div");
+  note.className = "sh-note";
+  linkify(note, p.note || "");
+  if (p.note) body.append(note);
+
+  const mk = (cls, text, href, ext) => {
+    const a = document.createElement("a");
+    if (cls) a.className = cls;
+    a.textContent = text;
+    a.href = href;
+    if (ext) { a.target = "_blank"; a.rel = "noopener"; }
+    return a;
+  };
+  const actions = document.createElement("div");
+  actions.className = "sh-actions";
+  actions.append(mk("primary", "Route starten", `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`, true));
+  const tel = note.querySelector('a[href^="tel:"]');
+  const web = note.querySelector('a[href^="http"]');
+  const mail = note.querySelector('a[href^="mailto:"]');
+  if (tel) actions.append(mk("", "Anrufen", tel.href));
+  if (web) actions.append(mk("", "Webseite", web.href, true));
+  else if (mail) actions.append(mk("", "E-Mail", mail.href));
+  body.append(actions);
+
+  body.scrollTop = 0;
+  sheet.classList.add("open");
+  document.body.classList.add("sheet-open");
+  requestAnimationFrame(() => {
+    const hgt = sheet.offsetHeight;
+    document.documentElement.style.setProperty("--sheet-h", hgt + "px");
+    map.panTo(offsetCenter({ lat: p.lat, lng: p.lng }, hgt / 2));
+  });
+}
+function closeSheet() {
+  const sheet = document.getElementById("sheet");
+  if (!sheet.classList.contains("open")) return;
+  sheet.classList.remove("open");
+  document.body.classList.remove("sheet-open");
+  if (selected) { selected.classList.remove("sel"); selected = null; }
+}
+(function () {
+  const sheet = document.getElementById("sheet"), grab = document.getElementById("sh-grab");
+  let sy = null;
+  document.getElementById("sh-x").onclick = closeSheet;
+  grab.addEventListener("touchstart", e => { sy = e.touches[0].clientY; sheet.style.transition = "none"; }, { passive: true });
+  grab.addEventListener("touchmove", e => {
+    if (sy === null) return;
+    const dy = e.touches[0].clientY - sy;
+    if (dy > 0) sheet.style.transform = `translateY(${dy}px)`;
+  }, { passive: true });
+  grab.addEventListener("touchend", e => {
+    if (sy === null) return;
+    const dy = e.changedTouches[0].clientY - sy;
+    sy = null;
+    sheet.style.transition = "";
+    sheet.style.transform = "";
+    if (dy > 70) closeSheet();
+  });
+  if (window.ResizeObserver) new ResizeObserver(() => {
+    if (sheet.classList.contains("open")) document.documentElement.style.setProperty("--sheet-h", sheet.offsetHeight + "px");
+  }).observe(sheet);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeSheet(); });
+})();
 async function initMap() {
-  const { Map, InfoWindow } = await google.maps.importLibrary("maps");
+  const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary("marker");
+  await clustererReady;
 
   map = new Map(document.getElementById("map"), {
     center: START, zoom: START_ZOOM, mapTypeId: "hybrid",
@@ -309,7 +456,7 @@ async function initMap() {
     gestureHandling: "greedy",
     clickableIcons: false
   });
-  infoWindow = new InfoWindow({ headerDisabled: true });
+  map.addListener("click", () => closeSheet());
 
   try {
   const res = await fetch("pois.json", { cache: "no-cache" });
@@ -352,7 +499,8 @@ b.append(ic, cat.label);
       const on = !active.has(key);
       on ? active.add(key) : active.delete(key);
       b.setAttribute("aria-pressed", on);
-      markers.forEach(m => { if (m.cat === key) m.el.map = on ? map : null; });
+      if (!on && selected && markers.some(m => m.cat === key && m.pin === selected)) closeSheet();
+      refreshMarkers();
     };
     bar.appendChild(b);
   });
@@ -363,6 +511,7 @@ b.append(ic, cat.label);
     const cat = data.categories[p.category];
     if (!cat) return;
     const pin = document.createElement("div");
+pin.className = "pin";
 pin.style.cssText = `width:35px;height:35px;border-radius:50%;background:${cat.color};border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.4);display:grid;place-items:center;font-size:22px;line-height:1`;
 if (/\.(svg|png)$/i.test(cat.icon || "")) {
   const img = document.createElement("img");
@@ -372,57 +521,40 @@ if (/\.(svg|png)$/i.test(cat.icon || "")) {
 } else {
   pin.textContent = cat.icon || "📍";
 }
-const el = new AdvancedMarkerElement({ map, position: { lat: p.lat, lng: p.lng }, title: p.name, content: pin });
-    el.addListener("click", () => {
-      const nav = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
-      const box = document.createElement("div");
-      box.className = "info";
-      box.innerHTML = `<button class="x" aria-label="Schließen">×</button><h2></h2><div class="cat"></div><div class="note"></div><a class="route" target="_blank" rel="noopener">Route starten</a>`;
-      box.querySelector("h2").textContent = p.name;
-      box.querySelector(".cat").textContent = cat.label;
-      linkify(box.querySelector(".note"), p.note || "");
-      const imgs = [].concat(p.images || p.image || []).filter(Boolean);
-      if (imgs.length) {
-        const strip = document.createElement("div");
-        strip.className = "photos";
-        imgs.forEach(src => {
-          const a = document.createElement("a");
-          a.href = src;
-          a.onclick = e => { e.preventDefault(); openLightbox(src); };
-          a.target = "_blank";
-          a.rel = "noopener";
-          const img = document.createElement("img");
-          img.alt = p.name;
-          img.loading = "lazy";
-          img.src = src;
-          img.onerror = () => a.remove();
-          a.appendChild(img);
-          strip.appendChild(a);
-        });
-        box.insertBefore(strip, box.querySelector(".note"));
-        if (imgs.length > 1) {
-          const dots = document.createElement("div");
-          dots.className = "dots";
-          imgs.forEach((_, i) => {
-            const d = document.createElement("i");
-            if (i === 0) d.className = "on";
-            dots.appendChild(d);
-          });
-          box.insertBefore(dots, box.querySelector(".note"));
-          strip.addEventListener("scroll", () => {
-            const i = Math.round(strip.scrollLeft / strip.clientWidth);
-            [...dots.children].forEach((d, k) => d.classList.toggle("on", k === i));
-          });
-        }
-      }
-      box.querySelector(".x").onclick = () => infoWindow.close();
-      box.querySelector("a.route").href = nav;
-      infoWindow.setContent(box);
-      infoWindow.open({ map, anchor: el });
-    });
-    markers.push({ el, cat: p.category });
+const el = new AdvancedMarkerElement({ position: { lat: p.lat, lng: p.lng }, title: p.name, content: pin });
+    el.addListener("click", () => openSheet(p, cat, pin));
+    markers.push({ el, cat: p.category, pin });
     bounds.extend(el.position);
   });
+  const catOf = new WeakMap(markers.map(m => [m.el, m.cat])); // WeakMap, weil "Map" in dieser Funktion die Google-Karte ist
+  if (window.markerClusterer) {
+    clusterer = new markerClusterer.MarkerClusterer({
+      map,
+      markers: [],
+      algorithm: new markerClusterer.SuperClusterAlgorithm({ radius: 70, maxZoom: 13 }),
+      renderer: {
+        render: ({ count, position, markers: group }) => {
+          const tally = {};
+          (group || []).forEach(m => { const k = catOf.get(m); if (k) tally[k] = (tally[k] || 0) + 1; });
+          let acc = 0;
+          const stops = Object.keys(data.categories).filter(k => tally[k]).map(k => {
+            const from = acc;
+            acc += tally[k] / count * 100;
+            return `${data.categories[k].color} ${from.toFixed(1)}% ${acc.toFixed(1)}%`;
+          });
+          const d = document.createElement("div");
+          d.className = "cluster";
+          d.style.setProperty("--s", (count < 10 ? 46 : count < 50 ? 54 : 62) + "px");
+          if (stops.length) d.style.setProperty("--ring", `conic-gradient(${stops.join(", ")})`);
+          const n = document.createElement("b");
+          n.textContent = count;
+          d.appendChild(n);
+          return new google.maps.marker.AdvancedMarkerElement({ position, content: d, zIndex: 1000 + count });
+        }
+      }
+    });
+  }
+  refreshMarkers();
 //  if (markers.length > 1) map.fitBounds(bounds, { top: 90, right: 40, bottom: 40, left: 40 });
 
   document.getElementById("locate").onclick = toggleLocation;
