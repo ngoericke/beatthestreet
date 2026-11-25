@@ -155,7 +155,7 @@
 { "name": "Palast der Künste", "category": "venues", "lat": 47.469396077458875, "lng": 19.07173940606608, "note": "Komor Marcell u. 1, 1095 Budapest, Ungarn" },
 { "name": "MVM Dome", "category": "venues", "lat": 47.4742505024606, "lng": 19.10093672758462, "note": "Kvassay J. út 1, 1095 Budapest, Ungarn" },
 
-{ "name": "Waterfront Hall", "category": "venues", "lat": 54.59749408050873, "lng": -5.920005448921817, "note": "2 Lanyon Pl, Belfast BT1 3WH, Vereinigtes Königreich" },
+{ "name": "Waterfront Hall", "category": "venues", "lat": 54.59749408050873, "lng": -5.920005448921817, "note": "2 Lanyon Pl, Belfast BT1 3WH, Vereinigtes Königreich", "image": "fotos/venues/belfastwaterfronthall.jpg" },
 { "name": "Villa Park", "category": "venues", "lat": 52.509105114634266, "lng": -1.8848042581377915, "note": "Trinity Rd, Birmingham B6 6HE, Vereinigtes Königreich" },
 { "name": "National Indoor Arena", "category": "venues", "lat": 52.479685675219386, "lng": -1.9147870719620255, "note": "King Edwards Rd, Birmingham B1 2AA, Vereinigtes Königreich" },
 { "name": "Macron Stadium", "category": "venues", "lat": 53.58061575334789, "lng": -2.535622270023445, "note": "De Havilland Way, Horwich, Bolton BL6 6SF, Vereinigtes Königreich" },
@@ -166,7 +166,7 @@
 { "name": "SEC Armadillo", "category": "venues", "lat": 55.859474410123184, "lng": -4.286906498848128, "note": "Finnieston Quay, Glasgow G3 8YW, Vereinigtes Königreich", "image": "fotos/venues/glasgowarmadillo.jpg" },
 { "name": "O2 Academy Glasgow", "category": "venues", "lat": 55.85053682575016, "lng": -4.259492188957238, "note": "121 Eglinton St, Glasgow G5 9NT, Vereinigtes Königreich" },
 { "name": "OVO Hydro", "category": "venues", "lat": 55.85960684473693, "lng": -4.285608292469243, "note": "Exhibition Way, Glasgow G3 8YW, Vereinigtes Königreich", "image": "fotos/venues/glasgowovohydro.jpg" },
-{ "name": "Hampden Park", "category": "venues", "lat": 55.825839439789696, "lng": -4.251952743946289, "note": "Letherby Dr, Glasgow G42 9BA, Vereinigtes Königreich" },
+{ "name": "Hampden Park", "category": "venues", "lat": 55.825839439789696, "lng": -4.251952743946289, "note": "Letherby Dr, Glasgow G42 9BA, Vereinigtes Königreich", "image": "fotos/venues/glasgowhampdenpark.jpg" },
 { "name": "First Direct Arena", "category": "venues", "lat": 53.80345214484798, "lng": -1.5421362000476704, "note": "Arena Way, Leeds LS2 8BY, Vereinigtes Königreich" },
 { "name": "M&S Bank Arena", "category": "venues", "lat": 53.39749823729931, "lng": -2.9916462431846886, "note": "Kings Dock, Liverpool L3 4FP, Vereinigtes Königreich" },
 { "name": "Anfield", "category": "venues", "lat": 53.43081963036795, "lng": -2.960977704086693, "note": "Anfield Rd, Liverpool L4 0TH, Vereinigtes Königreich" },
@@ -179,10 +179,10 @@
 { "name": "Manchester Academy", "category": "venues", "lat": 53.46361783924533, "lng": -2.2313467131425466, "note": "Oxford Rd, Manchester M13 9PR, Vereinigtes Königreich" },
 { "name": "Manchester Arena", "category": "venues", "lat": 53.488256761138906, "lng": -2.243976700434229, "note": "Victoria Station, Manchester M3 1AR, Vereinigtes Königreich" },
 { "name": "Co-op Live", "category": "venues", "lat": 53.48623640974152, "lng": -2.199984307628788, "note": "Etihad Campus, Manchester M11 3DL, Vereinigtes Königreich" },
-{ "name": "Metro Radio Arena", "category": "venues", "lat": 54.9638815266868, "lng": -1.623059671985789, "note": "Arena Way, Newcastle upon Tyne, Vereinigtes Königreich" },
+{ "name": "Utilita Arena", "category": "venues", "lat": 54.9638815266868, "lng": -1.623059671985789, "note": "Arena Way, Newcastle upon Tyne, Vereinigtes Königreich" },
 { "name": "Motorpoint Arena Nottingham", "category": "venues", "lat": 52.95279361622235, "lng": -1.1395842431161038, "note": "Bolero Square, Lace Market, Nottingham NG1 1LA, Vereinigtes Königreich" },
 { "name": "Rock City", "category": "venues", "lat": 52.95605805455061, "lng": -1.1540883300553353, "note": "8 Talbot St, Nottingham NG1 5GG, Vereinigtes Königreich" },
 { "name": "Scarborough Open Air Theatre", "category": "venues", "lat": 54.292275496659855, "lng": -0.4098019862212575, "note": "Burniston Rd, Scarborough YO12 5PA, Vereinigtes Königreich" },
 { "name": "Sheffield Arena", "category": "venues", "lat": 53.40017794807225, "lng": -1.4187838292890775, "note": "Broughton Ln, Sheffield S9 2DF, Vereinigtes Königreich" },
-{ "name": "Stadium of Light", "category": "venues", "lat": 54.9143970102286, "lng": -1.3881411154811065, "note": "Sunderland SR5 1SU, Vereinigtes Königreich" }
+{ "name": "Stadium of Light", "category": "venues", "lat": 54.9143970102286, "lng": -1.3881411154811065, "note": "Sunderland SR5 1SU, Vereinigtes Königreich", "image": "fotos/venues/sunderlandstatiumoflight.jpg" }
 ]
