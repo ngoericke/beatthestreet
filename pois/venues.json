@@ -83,7 +83,7 @@
 
 { "name": "Koncertna dvorana Vatroslava Lisinskog", "category": "venues", "lat": 45.800783704121, "lng": 15.97979228349835, "note": "Trg Stjepana Radića 4, 10000 Zagreb, Kroatien" },
 
-{ "name": "Freiluftbühne in der Segewolder Burgruine", "category": "venues", "lat": 57.16688794450138, "lng": 24.848932772997838, "note": "Siguldas viduslaiku pils (Segewold), 2150 Sigulda, Lettland" },
+{ "name": "Freiluftbühne in der Segewolder Burgruine", "category": "venues", "lat": 57.16688794450138, "lng": 24.848932772997838, "note": "Siguldas viduslaiku pils (Segewold), 2150 Sigulda, Lettland", "image": "fotos/venues/LT/siguldaburgplan.jpg" },
 
 { "name": "S.Dariaus-und-S.Girėno-Stadion", "category": "venues", "lat": 54.897397376021246, "lng": 23.938107799549847, "note": "Perkūno al. 5, 44260 Kaunas, Litauen" },
 
