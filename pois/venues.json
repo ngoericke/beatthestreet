@@ -184,5 +184,5 @@
 { "name": "Rock City", "category": "venues", "lat": 52.95605805455061, "lng": -1.1540883300553353, "note": "8 Talbot St, Nottingham NG1 5GG, Vereinigtes Königreich", "image": "fotos/venues/notthinghamrockcity.jpg" },
 { "name": "Scarborough Open Air Theatre", "category": "venues", "lat": 54.292275496659855, "lng": -0.4098019862212575, "note": "Burniston Rd, Scarborough YO12 5PA, Vereinigtes Königreich", "image": "fotos/venues/scarboroughopenairtheatre.jpg" },
 { "name": "Sheffield Arena", "category": "venues", "lat": 53.40017794807225, "lng": -1.4187838292890775, "note": "Broughton Ln, Sheffield S9 2DF, Vereinigtes Königreich", "image": "fotos/venues/sheffieldutilita.jpg" },
-{ "name": "Stadium of Light", "category": "venues", "lat": 54.9143970102286, "lng": -1.3881411154811065, "note": "Sunderland SR5 1SU, Vereinigtes Königreich", "image": "fotos/venues/sunderlandstatiumoflight.jpg" }
+{ "name": "Stadium of Light", "category": "venues", "lat": 54.9143970102286, "lng": -1.3881411154811065, "note": "Sunderland SR5 1SU, Vereinigtes Königreich", "image": "fotos/venues/sunderlandstadiumoflight.jpg" }
 ]
