@@ -30,15 +30,20 @@
     { "name": "DK - Kopenhagen - Scandic Sydhavnen", "category": "parkplatz", "lat": 55.65521, "lng": 12.54227, "note": "The total price will be 200 dkk to charge the buss for 1 day." },
     { "name": "DK - Kopenhagen - Stokholm Transport A / S", "category": "parkplatz", "lat": 55.7029, "lng": 12.4286, "note": "Sindalvej 10, 2610 Rødovre\nwww.stokholm.com\n+45 43 20 43 20\n\nDoor Code: 2430#" },
     
+    { "name": "ES - mowiz Truck Almeria", "category": "parkplatz", "lat": 36.833836300773555, "lng": -2.478645805826326, "note": "" },
     { "name": "ES - Barcelona - Parking camiones Bellvitge", "category": "parkplatz", "lat": 41.34324, "lng": 2.11, "note": "Camí Pau Redó, 10, 08908 L'Hospitalet de Llobregat, Barcelona\nwww.parkingcamionesbcn.com\n+34 667 01 65 06\n\nParken mit Strom & WC & Dusche\n\nWhatsApp-Nummern:\n+34667016506\n+34617757929\n\ninfo@parkingcamionesbcn.com\nparking2010@hotmail.es" },
     { "name": "ES - Barcelona - Tres Adanal", "category": "parkplatz", "lat": 41.41336, "lng": 2.2116, "note": "" },
+    { "name": "ES - mowiz Truck Barcelona", "category": "parkplatz", "lat": 41.46600760189374, "lng": 1.9775530684567282, "note": "" },
     { "name": "ES - Getafe - Camping Alpha", "category": "parkplatz", "lat": 40.31716, "lng": -3.68888, "note": "C. Calidad, S/N, 28906 Getafe, Madrid\nwww.campingalpha.com\n+34 916 95 80 69" },
     { "name": "ES - Madrid - CTM", "category": "parkplatz", "lat": 40.36585, "lng": -3.65616, "note": "" },
+    { "name": "ES - mowiz Montseny", "category": "parkplatz", "lat": 41.648588833580995, "lng": 2.4263657246085923, "note": "" },
+    { "name": "ES - mowiz Manises", "category": "parkplatz", "lat": 39.50139283997185, "lng": -0.4998938625056297, "note": "" },
     { "name": "ES - Pamplona - Autohof", "category": "parkplatz", "lat": 42.72964, "lng": -1.61495, "note": "" },
     { "name": "ES - SanSebastian - mowiz TruckParking", "category": "parkplatz", "lat": 43.28368, "lng": -1.92593, "note": "20115 Astigarraga, Gipuzkoa" },
     { "name": "ES - Santander - Parkplatz Stadion", "category": "parkplatz", "lat": 43.4774, "lng": -3.79141, "note": "" },
     { "name": "ES - Sevilla - Logistics Area", "category": "parkplatz", "lat": 37.38554, "lng": -5.9386, "note": "Km. 0 Calle, A-92, 41006 Sevilla\n+34 954 78 70 43" },
     { "name": "ES - Valencia - Matthias Hager", "category": "parkplatz", "lat": 39.42512, "lng": -0.32113, "note": "Parken bitte unbedingt vorher anmelden!\nParken nur v. April - November möglich.\n\nTel.-Nr. privat Matthias Hager (nur WhatsApp!!!)\n+436502210762" },
+    { "name": "ES - mowiz Truck Valencia", "category": "parkplatz", "lat": 39.43700029864041, "lng": -0.3571272373086336, "note": "" },
     
     { "name": "EST - Tallin - Caravan Camping Parking", "category": "parkplatz", "lat": 59.46742, "lng": 24.82436, "note": "Strom is vorhanden, allerdings nur 230V.\n32A soll allerdings auch vorhanden sein! Nachfragen bei: Phil (Fahrer BTS) +49 176 98550708\n\nhttps://park4night.com/de/place/38906" },
     
