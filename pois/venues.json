@@ -26,7 +26,7 @@
 { "name": "Congress Center Erfurt", "category": "venues", "lat": 50.959600853542874, "lng": 10.990574031741106, "note": "Theaterstraße 1, 99096 Erfurt, Deutschland" },
 { "name": "Festhalle Messe Frankfurt", "category": "venues", "lat": 50.111958235081126, "lng": 8.650853578327634, "note": "Ludwig-Erhard-Anlage 1, 60327 Frankfurt am Main, Deutschland" },
 { "name": "Georg-Friedrich-Händel-Halle", "category": "venues", "lat": 51.48167157218122, "lng": 11.964060721037384, "note": "Halle (Saale), Deutschland" },
-{ "name": "Georg Elser Halle", "category": "venues", "lat": 53.556300045651014, "lng": 9.97007245602349, "note": "St. Pauli, Hamburg, Deutschland" },
+{ "name": "Georg Elser Halle", "category": "venues", "lat": 53.556300045651014, "lng": 9.97007245602349, "note": "St. Pauli, Hamburg, Deutschland", "image": "fotos/venues/d/hamburgbunker.jpg" },
 { "name": "Laeiszhalle", "category": "venues", "lat": 53.555919929669585, "lng": 9.980876895516957, "note": "Johannes-Brahms-Platz, 20355 Hamburg, Deutschland" },
 { "name": "DOCKS", "category": "venues", "lat": 53.549260039743366, "lng": 9.96449991559691, "note": "Spielbudenplatz 19, 20359 Hamburg, Deutschland" },
 { "name": "Gruenspan", "category": "venues", "lat": 53.561845520894984, "lng": 9.972562937602364, "note": "Große Freiheit 58, 22767 Hamburg, Deutschland" },
